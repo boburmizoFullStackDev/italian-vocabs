@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 2</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a class="active" href="index2.html">Day 2</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: 'cesto', syllables: 'cè·sto', meaning: 'basket', example: 'Il cesto è pieno.', translation: 'The basket is full.' },
+      { word: 'pieno', syllables: 'piè·no', meaning: 'full', example: 'Il cesto è pieno.', translation: 'The basket is full.' },
+      { word: 'Cina', syllables: 'Cì·na', meaning: 'China', example: 'La Cina è grande.', translation: 'China is big.' },
+      { word: 'cena', syllables: 'cè·na', meaning: 'dinner', example: 'La cena è buona.', translation: 'The dinner is good.' },
+      { word: 'pace', syllables: 'pà·ce', meaning: 'peace', example: 'Voglio pace.', translation: 'I want peace.' },
+      { word: 'amici', syllables: 'a·mì·ci', meaning: 'friends', example: 'Ho amici.', translation: 'I have friends.' },
+      { word: 'croce', syllables: 'crò·ce', meaning: 'cross', example: 'Vedo una croce.', translation: 'I see a cross.' },
+      { word: 'forbice', syllables: 'fòr·bi·ce', meaning: 'scissors', example: 'La forbice taglia.', translation: 'The scissors cut.' },
+      { word: 'coltello', syllables: 'col·tèl·lo', meaning: 'knife', example: 'Il coltello taglia.', translation: 'The knife cuts.' },
+      { word: 'taglia', syllables: 'tà·glia', meaning: 'cuts / size', example: 'Lui taglia pane.', translation: 'He cuts bread.' },
+      { word: 'classe', syllables: 'clàs·se', meaning: 'class / classroom', example: 'La classe è piena.', translation: 'The classroom is full.' },
+      { word: 'chiave', syllables: 'chià·ve', meaning: 'key', example: 'Ho la chiave.', translation: 'I have the key.' },
+      { word: 'forchetta', syllables: 'for·chét·ta', meaning: 'fork', example: 'Ho una forchetta.', translation: 'I have a fork.' },
+      { word: 'chiesa', syllables: 'chiè·sa', meaning: 'church', example: 'La chiesa è grande.', translation: 'The church is big.' },
+      { word: 'occhio', syllables: 'òc·chio', meaning: 'eye', example: 'Ho due occhi.', translation: 'I have two eyes.' },
+      { word: 'cuore', syllables: 'cuò·re', meaning: 'heart', example: 'Il cuore è grande.', translation: 'The heart is big.' },
+      { word: 'scheda', syllables: 'schè·da', meaning: 'card / form / sheet', example: 'Ho una scheda.', translation: 'I have a card.' },
+      { word: 'lacrima', syllables: 'là·cri·ma', meaning: 'tear', example: 'La lacrima cade.', translation: 'The tear falls.' },
+      { word: 'carota', syllables: 'ca·rò·ta', meaning: 'carrot', example: 'La carota è buona.', translation: 'The carrot is good.' },
+      { word: 'corpo', syllables: 'còr·po', meaning: 'body', example: 'Il corpo è grande.', translation: 'The body is big.' },
+      { word: 'cubo', syllables: 'cù·bo', meaning: 'cube', example: 'Il cubo è piccolo.', translation: 'The cube is small.' },
+      { word: 'clima', syllables: 'clì·ma', meaning: 'climate', example: 'Il clima è caldo.', translation: 'The climate is hot.' },
+      { word: 'cugino', syllables: 'cu·gì·no', meaning: 'cousin', example: 'Ho un cugino.', translation: 'I have a cousin.' },
+      { word: 'curva', syllables: 'cùr·va', meaning: 'curve / bend', example: 'La curva è grande.', translation: 'The curve is big.' },
+      { word: 'chicco', syllables: 'chìc·co', meaning: 'grain / bean', example: 'Un chicco di riso.', translation: 'A grain of rice.' },
+      { word: 'chilo', syllables: 'chì·lo', meaning: 'kilo / kilogram', example: 'Un chilo di pane.', translation: 'One kilo of bread.' },
+      { word: 'maschio', syllables: 'mà·schio', meaning: 'male', example: 'Il cane è maschio.', translation: 'The dog is male.' },
+      { word: 'femmina', syllables: 'fém·mi·na', meaning: 'female', example: 'La gatta è femmina.', translation: 'The cat is female.' },
+      { word: 'chiodo', syllables: 'chiò·do', meaning: 'nail', example: 'Il chiodo è piccolo.', translation: 'The nail is small.' },
+      { word: 'perché', syllables: 'per·ché', meaning: 'why / because', example: 'Perché ridi?', translation: 'Why are you laughing?' },
+      { word: 'chiuso', syllables: 'chiù·so', meaning: 'closed', example: 'È chiuso.', translation: 'It is closed.' },
+      { word: 'dolce', syllables: 'dól·ce', meaning: 'sweet / dessert', example: 'Il dolce è buono.', translation: 'The dessert is good.' },
+      { word: 'pacchetto', syllables: 'pac·chét·to', meaning: 'package / small packet', example: 'Ho un pacchetto.', translation: 'I have a package.' },
+      { word: 'aceto', syllables: 'a·cé·to', meaning: 'vinegar', example: 'L’aceto è forte.', translation: 'The vinegar is strong.' },
+      { word: 'Michele', syllables: 'Mi·chè·le', meaning: 'Michael', example: 'Michele è qui.', translation: 'Michael is here.' },
+      { word: 'cognome', syllables: 'co·gnó·me', meaning: 'surname / last name', example: 'Il cognome è Toirov.', translation: 'The surname is Toirov.' },
+      { word: 'nome', syllables: 'nó·me', meaning: 'name', example: 'Il nome è Bobur.', translation: 'The name is Bobur.' },
+      { word: 'luogo di nascita', syllables: 'luò·go di nà·sci·ta', meaning: 'place of birth', example: 'Luogo di nascita: Roma.', translation: 'Place of birth: Rome.' },
+      { word: 'provincia', syllables: 'pro·vìn·cia', meaning: 'province', example: 'La provincia è grande.', translation: 'The province is big.' },
+      { word: 'scadenza', syllables: 'sca·dèn·za', meaning: 'deadline / expiry date', example: 'La scadenza è oggi.', translation: 'The deadline is today.' },
+      { word: 'lunedì', syllables: 'lu·ne·dì', meaning: 'Monday', example: 'Oggi è lunedì.', translation: 'Today is Monday.' },
+      { word: 'martedì', syllables: 'mar·te·dì', meaning: 'Tuesday', example: 'Oggi è martedì.', translation: 'Today is Tuesday.' },
+      { word: 'mercoledì', syllables: 'mer·co·le·dì', meaning: 'Wednesday', example: 'Oggi è mercoledì.', translation: 'Today is Wednesday.' },
+      { word: 'giovedì', syllables: 'gio·ve·dì', meaning: 'Thursday', example: 'Oggi è giovedì.', translation: 'Today is Thursday.' },
+      { word: 'venerdì', syllables: 've·ner·dì', meaning: 'Friday', example: 'Oggi è venerdì.', translation: 'Today is Friday.' },
+      { word: 'sabato', syllables: 'sà·ba·to', meaning: 'Saturday', example: 'Oggi è sabato.', translation: 'Today is Saturday.' },
+      { word: 'domenica', syllables: 'do·mé·ni·ca', meaning: 'Sunday', example: 'Oggi è domenica.', translation: 'Today is Sunday.' },
+      { word: 'diurno', syllables: 'di·ùr·no', meaning: 'daytime / daily', example: 'Corso diurno.', translation: 'Daytime course.' },
+      { word: 'ieri', syllables: 'iè·ri', meaning: 'yesterday', example: 'Ieri era caldo.', translation: 'Yesterday was hot.' },
+      { word: 'domani', syllables: 'do·mà·ni', meaning: 'tomorrow', example: 'Domani è lunedì.', translation: 'Tomorrow is Monday.' },
+      { word: 'giorni', syllables: 'giór·ni', meaning: 'days', example: 'Tre giorni.', translation: 'Three days.' },
+      { word: 'della', syllables: 'dél·la', meaning: 'of the / from the', example: 'La porta della casa.', translation: 'The door of the house.' },
+      { word: 'settimana', syllables: 'set·ti·mà·na', meaning: 'week', example: 'Una settimana.', translation: 'One week.' },
+      { word: 'scrivi', syllables: 'scrì·vi', meaning: 'you write / write', example: 'Scrivi il nome.', translation: 'Write the name.' },
+      { word: 'bambino', syllables: 'bam·bì·no', meaning: 'child / boy', example: 'Il bambino scrive.', translation: 'The child writes.' },
+      { word: 'nonno', syllables: 'nòn·no', meaning: 'grandfather', example: 'Il nonno scrive.', translation: 'The grandfather writes.' },
+      { word: 'amico', syllables: 'a·mì·co', meaning: 'friend', example: 'Ho un amico.', translation: 'I have a friend.' },
+      { word: 'zio', syllables: 'zì·o', meaning: 'uncle', example: 'Ho uno zio.', translation: 'I have an uncle.' },
+      { word: 'madre / padre', syllables: 'mà·dre / pà·dre', meaning: 'mother / father', example: 'Mia madre è qui.', translation: 'My mother is here.' },
+      { word: 'quaranta', syllables: 'qua·ràn·ta', meaning: 'forty', example: 'Ho quaranta euro.', translation: 'I have forty euros.' }
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>
