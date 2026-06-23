@@ -1,0 +1,32 @@
+#separator:tab
+#html:false
+Di dove sei? = di dó·ve sèi	Where are you from?    Per esempio: Sono di Bukhara.  (I am from Bukhara.)  pronuncia: ди довэ сэй?
+asiatico = a·sià·ti·co	Asian    Per esempio: Sono asiatico.  (I am Asian.)  pronuncia: азьятико
+Da dove vieni? = da dó·ve viè·ni	Where do you come from?    Per esempio: Vengo da Bukhara. (I come from Bukhara.)  pronuncia: да довэ вьени?
+impari = im·pà·ri	you learn     Per esempio: Tu impari italiano. (You learn Italian.)  pronuncia: импари
+Tu chi sei? = tu chi sèi?	Who are you?    Per esempio: Tu sei Bobur. (You are Bobur.)  pronuncia: ту ки сэй?
+straniero = stra·niè·ro	foreigner / foreign    Per esempio: Lui è straniero.  (He is foreign.)  pronuncia: стра-ньеро
+undici = ùn·di·ci	eleven    Per esempio: Ho undici euro. (I have eleven euros.)  pronuncia: ундичи
+dodici = dó·di·ci	twelve    Per esempio: Ho dodici anni. (I am twelve years old.)  pronuncia: додичи
+tredici = trè·di·ci	thirteen    Per esempio: Ho tredici euro. (I have thirteen euros.)  pronuncia: трэдичи
+quattordici = quat·tòr·di·ci	fourteen    Per esempio: Ho quattordici anni. (I am fourteen years old.)  pronuncia: куаттордичи
+quindici = quìn·di·ci	fifteen    Per esempio: Ho quindici euro. (I have fifteen euros.)  pronuncia: куин-дичи
+sedici = sè·di·ci	sixteen    Per esempio: Ho sedici anni. (I am sixteen years old.)  pronuncia: сэдичи
+diciassette = di·cias·sèt·te	seventeen    Per esempio: Ho diciassette anni. (I am seventeen years old.)  pronuncia: дичассэттэ
+diciotto = di·ciòt·to	eighteen    Per esempio: Ho diciotto anni. (I am eighteen years old.)  pronuncia: дичотто
+diciannove = di·cian·nò·ve	nineteen    Per esempio: Ho diciannove anni. (I am nineteen years old.)  pronuncia: дичанновэ
+più = più	more / plus    Per esempio: Voglio più pane. (I want more bread.)  pronuncia: пью
+meno = mè·no	less / minus    Per esempio: Voglio meno pane. (I want less bread.)  pronuncia: мэно
+uguale = u·guà·le	equal / same    Per esempio: Due più due uguale quattro. (Two plus two equals four.) Per essempio: Cinque meno due uguale tre. (Five minus two equals to three.)    pronuncia: угуалэ
+rispondi = ri·spón·di	you answer / answer!  Per esempio: Rispondi ora. (Answer now.)  pronuncia: риспонди
+viene = viè·ne	he/she comes / he/she is from    Per esempio: Lei viene da Roma. (She is from Rome.)  pronuncia: вьенэ
+nazionalità = na·zio·na·li·tà	nationality    Per esempio: Qual è la tua nazionalità?  (What is your nationality?)  pronuncia: нацьоналита́
+paese = pa·é·se	country / village    Per esempio: Il mio paese è bello. (My country is beautiful.)  pronuncia: паэ́зе
+quaderno = qua·dèr·no	notebook    Per esempio: Il quaderno è blu. (The notebook is blue.)  pronuncia: куадэ́рно
+penna = pén·na	pen    Per esempio: La penna è nera. (The pen is black.)  pronuncia: пэ́нна
+libro = lì·bro	book    Per esempio: Il libro è nuovo. (The book is new.)  pronuncia: ли́бро
+gomma = góm·ma	eraser / rubber    Per esempio: La gomma è rosa.  (The eraser is pink.)  pronuncia: го́мма
+matita = ma·tì·ta	pencil    Per esempio: La matita è gialla. (The pencil is yellow.)  pronuncia: мати́та
+zaino = zài·no	backpack / school bag    Per esempio: Lo zaino è grande. (The backpack is big.)  pronuncia: дза́йно
+banco = bàn·co	desk / school desk    Per esempio: Il banco è pulito. (The desk is clean.)  pronuncia: ба́нко
+sedia = sè·dia	chair    Per esempio: La sedia è comoda. (The chair is comfortable.)  pronuncia: сэ́дья
