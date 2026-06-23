@@ -1,0 +1,117 @@
+#separator:tab
+#html:false
+albero	tree   Per esempio: Io pianto un albero -- I plant a tree
+mangiare	to eat  Io voglio mangiare una banana.
+mangio	eat something, eat up   Per esempio: I mangio una banana.
+ogni = ó·gni	every / each   Per esempio: Io mangio una banana ogni mattina.   Pronunciation: ON-yee / OH-nyee
+cane = cà·ne	dog   Per esempio: Il cane mangia. (The dog eats.)  pronuncia: KAH-neh
+due = dù·e	two   Per esempio: Ho due cani. (I have two dogs.)  pronuncia: DOO-eh
+ho = ho	I have    Per esempio: Ho una banana. (I have a banana.)  pronuncia: oh
+euro = èu·ro	euro   Per esempio: Ho due euro. (I have two euros.)  pronuncia: эу-ро
+fuoco = fuò·co	fire    Per esempio: Il fuoco brucia. (The fire burns.)  pronuncia: фуо-ко
+brucia = brù·cia	burns    Per esempio: Il fuoco brucia. (The fire burns.)  pronuncia: бру-ча
+gelato = ge·là·to	ice cream    Per esempio: Mangio gelato. (I eat ice cream.)  pronuncia: джэ-ла-то
+letto = lèt·to	bed  Per esempio: Vedo il letto. (I see the bed.)  pronuncia: лэт-то
+mela	apple    Per esempio: Io mangio mela. (I eat apple.)  pronuncia: мэ-ла
+naso = nà·so	nose   Per esempio: Tocco il naso. (I touch the nose.)  pronuncia: на-зо
+otto = òt·to	eight    Per esempio: Ho otto anni. (I am eight years old.)  pronuncia: от-то
+pane = pà·ne	bread    Per esempio: Mangio pane. (I eat bread.)  pronuncia: па-нэ
+quattro = quàt·tro	four    Per esempio: Ho quattro libri. (I have four books.)  pronuncia: кват-тро
+sole = sò·le	sun    Per esempio: Vedo il sole. (I see the sun.)  pronuncia: со-ле
+tavolo	table   Per esempio: Il pane è sul tavolo. (The bread is on the table.)  pronuncia: та-во-ло
+uno = ù·no	one    Per esempio: Il numero uno. (The number one.)  pronuncia: у-но
+venti = vèn·ti	twenty    Per esempio: Ho venti mele. (I have twenty apples.)  pronuncia: вэн-ти
+sera = sé·ra	evening   Per esempio: Il sole va. (The sun goes.)  pronuncia: сэ-ра
+notte = nòt·te	night   Per esempio: La notte è nera. (The night is black.)  pronuncia: нот-тэ
+Buona notte = buò·na nòt·te	Good night    Per esempio: Buona notte! (Good night!)  pronuncia: буо-на нот-тэ
+cinque = cìn·que	five   Per esempio: Cinque mele sul tavolo. (Five apples on the table.)    pronuncia: чин-квэ
+sei = sèi	six     Per esempio: Sei bruchi camminano. (Six caterpillars walk.)  pronuncia: сэй
+bruchi = brù·chi	caterpillars    Per esempio: Sei bruchi camminano. (Six caterpillars walk.)    pronuncia: бру-ки
+camminano = cam·mì·na·no	they walk    Per esempio: Sei bruchi camminano. (Six caterpillars walk.)    pronuncia: кам-ми-на-но
+sette = sèt·te	seven    Per esempio: Sette mele sul tavolo. (Seven apples on the table.)  pronuncia: сэт-тэ
+otto	eight    Per esempio: Otto bruchi camminano. (Eight caterpillars walk.)  pronuncia: от-то
+nove = nò·ve	nine    Per esempio: Nove mele sul letto. (Nine apples on the bed.)  pronuncia: но-вэ
+dieci = diè·ci	ten    Per esempio: Dieci mele sul tavolo. (Ten apples on the table.)  pronuncia: диэ-чи
+bicicletta	bicycle    Per esempio: Una bicicletta rossa. (One red bicycle.)  pronuncia: би-чи-клэт-та
+Quindi	quindi = quìn·di    so / therefore  Per esempio: Dieci mele, quindi tante . (Ten apples, so many.)    pronuncia: куин-ди
+niente = nièn·te	nothing / anything   Per esempio: Non ho niente. (I have nothing.)  pronuncia: нье́нтэ
+ma = mà	but   Per esempio: Ho pane, ma niente. (I have bread, but nothing.)  pronuncia: ма
+buone = buò·ne	good / nice   Per esempio: Buone gambe. (Good legs.)  pronuncia: буо́нэ
+gambe = gàm·be	legs   Per esempio: Ho buone gambe. (I have good legs.)  pronuncia: га́мбэ
+tatuaggio = ta·tu·àg·gio	tattoo   Per esempio: Ho un tatuaggio. (I have a tattoo.)  pronuncia: татуáджо
+orologio = o·ro·lò·gio	watch / clock   Per esempio: Ho un orologio. (I have a watch.)  pronuncia: ороло́джо
+telefono fisso = te·lè·fo·no fìs·so	landline phone   Per esempio: Ho un telefono fisso. (I have a landline phone.)  pronuncia: тэле́фоно фи́ссо
+portafoglio = por·ta·fò·glio	wallet   Per esempio: Il portafoglio è sul tavolo. (The wallet is on the table.)  pronuncia: портафо́льо
+mesi = mé·si	months  Per esempio: Sei mesi. (Six months.) mese = one month  pronuncia: ме́зи
+casa = cà·sa	house / home   Per esempio: La casa è bella. (The house is beautiful.)  pronuncia: ка́за
+fame = fà·me	hunger   Per esempio: Ho fame. (I am hungry.)  pronuncia: фа́мэ
+sete = sé·te	thirst   Per esempio: Ho sete. (I am thirsty.)  pronuncia: се́тэ
+caldo = càl·do	hot / heat   Per esempio: Ho caldo. (I am hot.)  pronuncia: ка́льдо
+freddo = fréd·do	cold   Per esempio: Ho freddo. (I am cold.)  pronuncia: фрэ́ддо
+sonno = són·no	sleepiness   Per esempio: Ho sonno. (I am sleepy.)  pronuncia: со́нно
+cucina = cu·cì·na	kitchen / cuisine / cooking    Per esempio: La cucina è grande. (The kitchen is big.)  pronuncia: ку-ЧИ-на
+cesto = cè·sto	basket  Per esempio: Il cesto è pieno. (The basket is full.)  pronuncia: ЧЕС-то
+pieno = piè·no	full   Per esempio: Il cesto è pieno. (The basket is full.)  pronuncia: ПЬЕ-но
+Cina = Cì·na	China   Per esempio: La Cina è grande. (China is big.)  pronuncia: ЧИ-на
+cena = cè·na	dinner   Per esempio: La cena è buona. (The dinner is good.)  pronuncia: ЧЕ-на
+pace = pà·ce	peace   Per esempio: Voglio pace. (I want peace.)  pronuncia: ПА-че
+amici = a·mì·ci	friends   Per esempio: Ho amici. (I have friends.)  pronuncia: а-МИ-чи
+croce = crò·ce	cross   Per esempio: Vedo una croce. (I see a cross.)  pronuncia: КРО-че
+forbice = fòr·bi·ce	scissors   Per esempio: La forbice taglia. (The scissors cut.)  pronuncia: ФОР-би-че
+coltello = col·tèl·lo	knife   Per esempio: Il coltello taglia. (The knife cuts.)  pronuncia: кол-ТЭЛ-ло
+taglia = tà·glia	cuts / size   Per esempio: Lui taglia pane. (He cuts bread.)  pronuncia: ТА-лья
+classe = clàs·se	class / classroom   Per esempio: La classe è piena. (The classroom is full.)  pronuncia: КЛАС-се
+chiave = chià·ve	key   Per esempio: Ho la chiave. (I have the key.)  pronuncia: КЬЯ-ве
+forchetta = for·chét·ta	fork   Per esempio: Ho una forchetta. (I have a fork.)  pronuncia: фор-КЕТ-та
+chiesa = chiè·sa	church   Per esempio: La chiesa è grande. (The church is big.)  pronuncia: КЬЕ-за
+occhio = òc·chio	eye   Per esempio: Ho due occhi. (I have two eyes.)  pronuncia: ОК-кьо
+cuore = cuò·re	heart   Per esempio: Il cuore è grande. (The heart is big.)  pronuncia: КУО-р
+scheda = schè·da	card / form / sheet   Per esempio: Ho una scheda. (I have a card.)  pronuncia: СКЕ-да
+lacrima = là·cri·ma	tear   Per esempio: La lacrima cade. (The tear falls.)  pronuncia: ЛА-кри-ма
+carota = ca·rò·ta	carrot   Per esempio: La carota è buona. (The carrot is good.)  pronuncia: ка-РО-та
+corpo = còr·po	body   Per esempio: Il corpo è grande. (The body is big.)  pronuncia: КОР-по
+cubo = cù·bo	cube   Per esempio: Il cubo è piccolo. (The cube is small.)  pronuncia: КУ-бо
+clima = clì·ma	climate   Per esempio: Il clima è caldo. (The climate is hot.)  pronuncia: КЛИ-ма
+cugino = cu·gì·no	cousin   Per esempio: Ho un cugino. (I have a cousin.)  pronuncia: ку-ДЖИ-но
+curva = cùr·va	curve / bend   Per esempio: La curva è grande. (The curve is big.)  pronuncia: КУР-ва
+chicco = chìc·co	grain / bean    Per esempio: Un chicco di riso. (A grain of rice.)  pronuncia: КИК-ко
+chilo = chì·lo	kilo / kilogram   Per esempio: Un chilo di pane. (One kilo of bread.)  pronuncia: КИ-ло
+maschio = mà·schio	male   Per esempio: Il cane è maschio. (The dog is male.)  pronuncia: МАС-кьо
+femmina = fém·mi·na	female   Per esempio: La gatta è femmina. (The cat is female.)  pronuncia: ФЭМ-ми-на
+chiodo = chiò·do	nail   Per esempio: Il chiodo è piccolo. (The nail is small.)  pronuncia: КЬО-до
+perché = per·ché	why / because   Per esempio: Perché ridi? (Why are you laughing?)  pronuncia: пер-КЕ
+chiuso = chiù·so	closed   Per esempio: È chiuso. (It is closed.)  pronuncia: КЬЮ-зо
+dolce = dól·ce	sweet / dessert   Per esempio: Il dolce è buono. (The dessert is good.)  pronuncia: ДОЛ-че
+pacchetto = pac·chét·to	package / small packet   Per esempio: Ho un pacchetto. (I have a package.)  pronuncia: пак-КЕТ-то
+aceto = a·cé·to	vinegar   Per esempio: L’aceto è forte. (The vinegar is strong.)  pronuncia: а-ЧЕ-то
+Michele = Mi·chè·le	Michael   Per esempio: Michele è qui. (Michael is here.)  pronuncia: ми-КЕ-ле
+cognome = co·gnó·me	surname / last name   Per esempio: Il cognome è Toirov. (The surname is Toirov.)  pronuncia: ко-НЬО-ме
+nome = nó·me	name   Per esempio: Il nome è Bobur. (The name is Bobur.)  pronuncia: НО-ме
+luogo di nascita = luò·go di nà·sci·ta	place of birth   Per esempio: Luogo di nascita: Roma. (Place of birth: Rome.)  pronuncia: ЛУО-го ди НА-ши-та
+provincia = pro·vìn·cia	province   Per esempio: La provincia è grande. (The province is big.)  pronuncia: про-ВИН-ча
+scadenza = sca·dèn·za	deadline / expiry date   Per esempio: La scadenza è oggi. (The deadline is today.)  pronuncia: ска-ДЭН-дза
+lunedì = lu·ne·dì	Monday  Per esempio: Oggi è lunedì. (Today is Monday.) pronuncia: лу-не-ДИ
+martedì = mar·te·dì	Tuesday   Per esempio: Oggi è martedì. (Today is Tuesday.)  pronuncia: мар-те-ДИ
+mercoledì = mer·co·le·dì	Wednesday   Per esempio: Oggi è mercoledì. (Today is Wednesday.)  pronuncia: мер-ко-ле-ДИ
+giovedì = gio·ve·dì	Thursday   Per esempio: Oggi è giovedì. (Today is Thursday.)  pronuncia: джо-ве-ДИ
+venerdì = ve·ner·dì	Friday  Per esempio: Oggi è venerdì. (Today is Friday.) pronuncia: ве-нер-ДИ
+sabato = sà·ba·to	Saturday   Per esempio: Oggi è sabato. (Today is Saturday.)  pronuncia: СА-ба-то
+domenica = do·mé·ni·ca	Sunday   Per esempio: Oggi è domenica. (Today is Sunday.)  pronuncia: до-МЭ-ни-ка
+diurno = di·ùr·no	daytime / daily   Per esempio: Corso diurno. (Daytime course.)  pronuncia: ди-УР-но
+ieri = iè·ri	yesterday   Per esempio: Ieri era caldo. (Yesterday was hot.)  pronuncia: ЙЕ-ри
+domani = do·mà·ni	tomorrow   Per esempio: Domani è lunedì. (Tomorrow is Monday.)  pronuncia: до-МА-ни
+giorni = giór·ni	days   Per esempio: Tre giorni. (Three days.)  pronuncia: ДЖОР-ни
+della = dél·la	of the / from the   Per esempio: La porta della casa. (The door of the house.)  pronuncia: ДЭЛ-ла
+settimana = set·ti·mà·na	week   Per esempio: Una settimana. (One week.)  pronuncia: сет-ти-МА-на
+scrivi = scrì·vi	you write / write   Per esempio: Scrivi il nome. (Write the name.)  pronuncia: СКРИ-ви
+bambino = bam·bì·no	child / boy   Per esempio: Il bambino scrive. (The child writes.)  pronuncia: бам-БИ-но
+nonno = nòn·no	grandfather   Per esempio: Il nonno scrive. (The grandfather writes.)  pronuncia: НОН-но
+amico = a·mì·co	friend    masculine singular: amico = male friend  masculine plural: amici = male friends / friends  feminine singular: amica = female friend  feminine plural: amiche = female friends    Per esempio: Ho un amico. (I have a friend.)  pronuncia: а-МИ-ко
+zio = zì·o	uncle    masculine singular: zio = uncle  masculine plural: zii = uncles  feminine singular: zia = aunt  feminine plural: zie = aunts  Per esempio: Ho uno zio. (I have an uncle.)  pronuncia: ДЗИ-о
+madre = mà·dre, padre = pà·dre	mother  feminine singular: madre = mother  feminine plural: madri = mothers  masculine singular: padre = father  masculine plural: padri = fathers  Per esempio: Mia madre è qui. (My mother is here.)   pronuncia: МА-дре
+quaranta = qua·ràn·ta	forty    Per esempio: Ho quaranta euro. (I have forty euros.)  pronuncia: ква-РАН-та
+cinquanta = cin·quàn·ta	fifty    Per esempio: Ho cinquanta euro. (I have fifty euros.)  pronuncia: чин-КВАН-та
+sessanta = ses·sàn·ta	sixty    Per esempio: Ho sessanta euro. (I have sixty euros.)  pronuncia: сес-САН-та
+settanta = set·tàn·ta	seventy    Per esempio: Ho settanta euro. (I have seventy euros.)  pronuncia: сет-ТАН-та
+ottanta = ot·tàn·ta	eighty    Per esempio: Ho ottanta euro. (I have eighty euros.)  pronuncia: от-ТАН-та
+novanta = no·vàn·ta	ninety    Per esempio: La lezione dura novanta minuti. (The lesson lasts ninety minutes.)  pronuncia: но-ВАН-та
