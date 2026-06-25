@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 4</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a class="active" href="index4.html">Day 4</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `siamo`, syllables: `sià·mo`, pronuncia: `сья-мо`, meaning: `we are`, example: `Siamo studenti.`, translation: `We are students.` },
+      { word: `nati`, syllables: `nà·ti`, pronuncia: `на-ти`, meaning: `born`, example: `Siamo nati qui.`, translation: `We were born here.` },
+      { word: `genitori`, syllables: `ge·ni·tó·ri`, pronuncia: `дже-ни-то-ри`, meaning: `parents`, example: `I genitori sono qui.`, translation: `The parents are here.` },
+      { word: `sono`, syllables: `só·no`, pronuncia: `со-но`, meaning: `I am / they are`, example: `Sono qui.`, translation: `I am here.` },
+      { word: `vostri`, syllables: `vò·stri`, pronuncia: `во-стри`, meaning: `your / yours`, example: `I vostri genitori.`, translation: `Your parents.` },
+      { word: `metti`, syllables: `mét·ti`, pronuncia: `мет-ти`, meaning: `you put / put`, example: `Metti il libro.`, translation: `Put the book.` },
+      { word: `falso`, syllables: `fàl·so`, pronuncia: `фаль-со`, meaning: `false / wrong`, example: `È falso.`, translation: `It is false.` },
+      { word: `anno`, syllables: `àn·no`, pronuncia: `ан-но`, meaning: `year`, example: `Un anno.`, translation: `One year.` },
+      { word: `chi`, syllables: `chì`, pronuncia: `ки`, meaning: `who`, example: `Chi è lui?`, translation: `Who is he?` },
+      { word: `molto`, syllables: `mól·to`, pronuncia: `моль-то`, meaning: `very / much / a lot`, example: `Sei molto bravo.`, translation: `You are very good.` },
+      { word: `che`, syllables: `ché`, pronuncia: `кэ`, meaning: `what / that / which`, example: `Che ore sono?`, translation: `What time is it?` },
+      { word: `ore`, syllables: `ó·re`, pronuncia: `о-ре`, meaning: `hours`, example: `Che ore sono?`, translation: `What time is it?` },
+      { word: `esercizio`, syllables: `e·ser·cì·zio`, pronuncia: `э-зер-чи-цио`, meaning: `exercise`, example: `Faccio un esercizio.`, translation: `I do an exercise.` },
+      { word: `cantanti`, syllables: `can·tàn·ti`, pronuncia: `кан-тан-ти`, meaning: `singers`, example: `Sono cantanti.`, translation: `They are singers.` },
+      { word: `calciatore`, syllables: `cal·cia·tó·re`, pronuncia: `каль-ча-то-ре`, meaning: `footballer / soccer player`, example: `Lui è calciatore.`, translation: `He is a footballer.` },
+      { word: `cantanti pop`, syllables: `can·tàn·ti pòp`, pronuncia: `кан-тан-ти поп`, meaning: `pop singers`, example: `Sono cantanti pop.`, translation: `They are pop singers.` },
+      { word: `politico`, syllables: `po·lì·ti·co`, pronuncia: `по-ли-ти-ко`, meaning: `politician / political`, example: `Lui è politico.`, translation: `He is a politician.` },
+      { word: `cartoni`, syllables: `car·tó·ni`, pronuncia: `кар-то-ни`, meaning: `cartoons`, example: `Guardo cartoni.`, translation: `I watch cartoons.` },
+      { word: `animati`, syllables: `a·ni·mà·ti`, pronuncia: `а-ни-ма-ти`, meaning: `animated`, example: `Cartoni animati.`, translation: `Animated cartoons.` },
+      { word: `motociclista`, syllables: `mo·to·ci·clì·sta`, pronuncia: `мо-то-чи-кли-ста`, meaning: `motorcyclist / motorcycle rider`, example: `Lui è motociclista.`, translation: `He is a motorcyclist.` },
+      { word: `nord`, syllables: `nòrd`, pronuncia: `норд`, meaning: `north`, example: `Al nord fa freddo.`, translation: `In the north it is cold.` },
+      { word: `sud`, syllables: `sùd`, pronuncia: `суд`, meaning: `south`, example: `Al sud fa caldo.`, translation: `In the south it is hot.` },
+      { word: `gemelli`, syllables: `ge·mèl·li`, pronuncia: `дже-мел-ли`, meaning: `twins`, example: `Sono gemelli.`, translation: `They are twins.` },
+      { word: `gente`, syllables: `gèn·te`, pronuncia: `джен-те`, meaning: `people`, example: `C’è tanta gente.`, translation: `There are many people.` },
+      { word: `gesso`, syllables: `gès·so`, pronuncia: `джес-со`, meaning: `chalk / plaster`, example: `Ho un gesso.`, translation: `I have chalk / I have a cast.` },
+      { word: `giubbotto`, syllables: `giub·bòt·to`, pronuncia: `джуб-бот-то`, meaning: `jacket`, example: `Ho un giubbotto.`, translation: `I have a jacket.` },
+      { word: `giacca`, syllables: `giàc·ca`, pronuncia: `джак-ка`, meaning: `jacket`, example: `Ho una giacca.`, translation: `I have a jacket.` },
+      { word: `giusto`, syllables: `giù·sto`, pronuncia: `джус-то`, meaning: `right / correct`, example: `È giusto.`, translation: `It is correct.` },
+      { word: `giornale`, syllables: `gior·nà·le`, pronuncia: `джор-на-ле`, meaning: `newspaper / journal`, example: `Leggo il giornale.`, translation: `I read the newspaper.` },
+      { word: `gatto`, syllables: `gàt·to`, pronuncia: `гат-то`, meaning: `cat`, example: `Vedo un gatto.`, translation: `I see a cat.` },
+      { word: `gonna`, syllables: `gón·na`, pronuncia: `гон-на`, meaning: `skirt`, example: `Ho una gonna.`, translation: `I have a skirt.` },
+      { word: `guanti`, syllables: `guàn·ti`, pronuncia: `гуан-ти`, meaning: `gloves`, example: `Ho i guanti.`, translation: `I have gloves.` },
+      { word: `gru`, syllables: `grù`, pronuncia: `гру`, meaning: `crane`, example: `Vedo una gru.`, translation: `I see a crane.` },
+      { word: `ghiaccio`, syllables: `ghiàc·cio`, pronuncia: `гьяч-чо`, meaning: `ice`, example: `Vedo il ghiaccio.`, translation: `I see the ice.` },
+      { word: `goccia`, syllables: `góc·cia`, pronuncia: `гоч-ча`, meaning: `drop`, example: `Una goccia d'acqua.`, translation: `A drop of water.` }
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

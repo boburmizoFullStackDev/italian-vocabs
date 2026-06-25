@@ -1,0 +1,37 @@
+#separator:tab
+#html:false
+siamo = sià·mo	we are    Per esempio: Siamo studenti. (We are students.)  pronuncia: сья-мо
+nati = nà·ti	born    Per esempio: Siamo nati qui. (We were born here.)  pronuncia: на-ти
+genitori = ge·ni·tó·ri	parents  Per esempio: I genitori sono qui. (The parents are here.)  pronuncia: дже-ни-то-ри
+sono = só·no	I am / they are    Per esempio: Sono qui. (I am here.)  pronuncia: со-но
+vostri = vò·stri	your / yours   (for masculine plural things or people)  Per esempio: I vostri genitori. (Your parents.)  pronuncia: во-стри
+metti = mét·ti	you put / put    Per esempio: Metti il libro. (Put the book.)  pronuncia: мет-ти
+falso = fàl·so	false / wrong    Per esempio: È falso. (It is false.)  pronuncia: фаль-со
+anno = àn·no	year    Per esempio: Un anno. (One year.)  pronuncia: ан-но
+chi = chì	who    Per esempio: Chi è lui? (Who is he?)  pronuncia: ки
+molto = mól·to	very / much / a lot    Per esempio: Sei molto bravo. (You are very good.)  pronuncia: моль-то
+che = ché	what / that / which    Per esempio: Che ore sono? (What time is it?)  pronuncia: ке
+ore = ó·re	hours    Per esempio: Che ore sono? (What time is it?)  pronuncia: о-ре
+esercizio = e·ser·cì·zio	exercise    Per esempio: Faccio un esercizio. (I do an exercise.)  pronuncia: э-зер-чи-цио
+cantanti = can·tàn·ti	singers    Per esempio: Sono cantanti. (They are singers.)  pronuncia: кан-тан-ти
+calciatore = cal·cia·tó·re	footballer / soccer player    Per esempio: Lui è calciatore. (He is a footballer.)  pronuncia: каль-ча-то-ре
+cantanti pop = can·tàn·ti pòp	pop singers   Per essempio: Sono cancanti pop. (They are pop singers.)  pronuncia: кан-тан-ти поп
+politico = po·lì·ti·co	politician / political    Per esempio: Lui è politico. (He is a politician.)  pronuncia: по-ли-ти-ко
+cartoni = car·tó·ni	cartoons    Per esempio: Guardo cartoni. (I watch cartoons.)  pronuncia: кар-то-ни
+animati = a·ni·mà·ti	animated    Per esempio: Cartoni animati. (Animated cartoons.)  pronuncia: а-ни-ма-ти
+motociclista = mo·to·ci·clì·sta	motorcyclist / motorcycle rider    Per esempio: Lui è motociclista. (He is a motorcyclist.)  pronuncia: мо-то-чи-кли-ста
+nord = nòrd	north    Per esempio: Al nord fa freddo. (In the north it is cold.)  pronuncia: норд
+sud = sùd	south    Per esempio: Al sud fa caldo. (In the south it is hot.)  pronuncia: суд
+gemelli = ge·mèl·li	twins    Per esempio: Sono gemelli. (They are twins.)  pronuncia: дже-мел-ли
+gente = gèn·te	people    Per esempio: C’è tanta gente. (There are many people.)  pronuncia: джен-те
+gesso = gès·so	chalk / plaster    Per esempio: Ho un gesso. (I have chalk / I have a cast.)  pronuncia: джес-со
+giubbotto = giub·bòt·to	jacket    Per esempio: Ho un giubbotto. (I have a jacket.)  pronuncia: джуб-бот-то
+giacca = giàc·ca	jacket    Per esempio: Ho una giacca. (I have a jacket.)  pronuncia: джак-ка
+giusto = giù·sto	right / correct    Per esempio: È giusto. (It is correct.)  pronuncia: джус-то
+giornale = gior·nà·le	newspaper/journal    Per esempio: Leggo il giornale. (I read the newspaper.)  pronuncia: джор-на-ле
+gatto = gàt·to	cat    Per esempio: Vedo un gatto. (I see a cat.)  pronuncia: гат-то
+gonna = gón·na	skirt    Per esempio: Ho una gonna. (I have a skirt.)  pronuncia: гон-на
+guanti = guàn·ti	gloves  Per essempio: Ho i guanti. (I have gloves.)  pronuncia: гуан-ти
+gru = grù	crane  Per esempio: Vedo una gru. (I see a crane.)  pronuncia: гру
+ghiaccio = ghiàc·cio	ice   Per essempio: Vedo il ghiaccio. (I see the ice.)  Pronuncia: гьяч-чо
+goccia = góc·cia	drop  Per essempio: Una goccia d'acqua. (A drop of water.)  pronuncia: гоч-ча
