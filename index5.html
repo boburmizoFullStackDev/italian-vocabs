@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 5</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a class="active" href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: 'città', syllables: 'cit·tà', pronuncia: 'чит-ТА', meaning: 'city', example: 'Roma è una città.', translation: 'Rome is a city.' },
+      { word: 'cento', syllables: 'cèn·to', pronuncia: 'ЧЕН-то', meaning: 'hundred', example: 'Ho cento euro.', translation: 'I have one hundred euros.' },
+      { word: 'cerotto', syllables: 'ce·ròt·to', pronuncia: 'че-РОТ-то', meaning: 'band-aid / plaster', example: 'Ho un cerotto.', translation: 'I have a band-aid.' },
+      { word: 'centro', syllables: 'cèn·tro', pronuncia: 'ЧЕН-тро', meaning: 'center / city center', example: 'Vado al centro.', translation: 'I go to the city center.' },
+      { word: 'camicia', syllables: 'ca·mì·cia', pronuncia: 'ка-МИ-ча', meaning: 'shirt', example: 'Ho una camicia.', translation: 'I have a shirt.' },
+      { word: 'luce', syllables: 'lù·ce', pronuncia: 'ЛУ-че', meaning: 'light', example: 'La luce è forte.', translation: 'The light is strong.' },
+      { word: 'faccia', syllables: 'fàc·cia', pronuncia: 'ФАЧ-ча', meaning: 'face', example: 'La faccia è bella.', translation: 'The face is beautiful.' },
+      { word: 'nascere', syllables: 'nà·sce·re', pronuncia: 'нà·ше·рэ', meaning: 'to be born', example: 'Sono nato qui.', translation: 'I was born here.' },
+      { word: 'maglia', syllables: 'mà·glia', pronuncia: 'мà·лья', meaning: 'shirt / sweater / jersey', example: 'La maglia è blu.', translation: 'The shirt is blue.' },
+      { word: 'coniglio', syllables: 'co·nì·glio', pronuncia: 'ко·нì·льо', meaning: 'rabbit', example: 'Il coniglio salta.', translation: 'The rabbit jumps.' },
+      { word: 'foglia', syllables: 'fò·glia', pronuncia: 'фò·лья', meaning: 'leaf', example: 'La foglia cade.', translation: 'The leaf falls.' },
+      { word: 'aglio', syllables: 'à·glio', pronuncia: 'à·льо', meaning: 'garlic', example: 'Uso aglio.', translation: 'I use garlic.' },
+      { word: 'conchiglie', syllables: 'con·chì·glie', pronuncia: 'кон·кì·лье', meaning: 'shells / shell-shaped pasta', example: 'Mangio conchiglie.', translation: 'I eat shell pasta.' },
+      { word: 'biglietto', syllables: 'bi·gliét·to', pronuncia: 'би·льéт·то', meaning: 'ticket', example: 'Ho un biglietto.', translation: 'I have a ticket.' },
+      { word: 'bottiglia', syllables: 'bot·tì·glia', pronuncia: 'бот·тì·лья', meaning: 'bottle', example: 'La bottiglia è piena.', translation: 'The bottle is full.' },
+      { word: 'lavastoviglie', syllables: 'la·va·sto·vì·glie', pronuncia: 'ла·ва·сто·вì·лье', meaning: 'dishwasher', example: 'Uso la lavastoviglie.', translation: 'I use the dishwasher.' },
+      { word: 'voglio', syllables: 'vò·glio', pronuncia: 'вò·льо', meaning: 'I want', example: 'Voglio acqua.', translation: 'I want water.' },
+      { word: 'sbaglio', syllables: 'sbà·glio', pronuncia: 'збà·льо', meaning: 'mistake / I make a mistake', example: 'Faccio uno sbaglio.', translation: 'I make a mistake.' },
+      { word: 'fogli', syllables: 'fò·gli', pronuncia: 'фò·льи', meaning: 'sheets / papers', example: 'Ho due fogli.', translation: 'I have two sheets.' },
+      { word: 'maglione', syllables: 'ma·glió·ne', pronuncia: 'ма·льó·нэ', meaning: 'sweater', example: 'Ho un maglione.', translation: 'I have a sweater.' },
+      { word: 'Sicilia', syllables: 'Si·cì·lia', pronuncia: 'си·чì·лия', meaning: 'Sicily', example: 'Vivo in Sicilia.', translation: 'I live in Sicily.' },
+      { word: 'caviglia', syllables: 'ca·vì·glia', pronuncia: 'ка·вì·лья', meaning: 'ankle', example: 'La caviglia fa male.', translation: 'The ankle hurts.' },
+      { word: 'luglio', syllables: 'lù·glio', pronuncia: 'лù·льо', meaning: 'July', example: 'Luglio è caldo.', translation: 'July is hot.' },
+      { word: 'vaniglia', syllables: 'va·nì·glia', pronuncia: 'ва·нì·лья', meaning: 'vanilla', example: 'Gelato alla vaniglia.', translation: 'Vanilla ice cream.' },
+      { word: 'tovaglia', syllables: 'to·và·glia', pronuncia: 'то·вà·лья', meaning: 'tablecloth', example: 'La tovaglia è bianca.', translation: 'The tablecloth is white.' },
+      { word: 'gnomo', syllables: 'gnò·mo', pronuncia: 'ньò·мо', meaning: 'gnome / dwarf', example: 'Vedo uno gnomo.', translation: 'I see a gnome.' },
+      { word: 'castagne', syllables: 'ca·stà·gne', pronuncia: 'ка·стà·нье', meaning: 'chestnuts', example: 'Mangio castagne.', translation: 'I eat chestnuts.' },
+      { word: 'lavagna', syllables: 'la·và·gna', pronuncia: 'ла·вà·нья', meaning: 'blackboard / whiteboard', example: 'Scrivo alla lavagna.', translation: 'I write on the board.' },
+      { word: 'lasagne', syllables: 'la·sà·gne', pronuncia: 'ла·зà·нье', meaning: 'lasagna / lasagne', example: 'Mangio lasagne.', translation: 'I eat lasagna.' },
+      { word: 'signora', syllables: 'si·gnó·ra', pronuncia: 'си·ньó·ра', meaning: 'madam / lady / Mrs.', example: 'La signora legge.', translation: 'The lady reads.' },
+      { word: 'Spagna', syllables: 'Spà·gna', pronuncia: 'спà·нья', meaning: 'Spain', example: 'Vengo dalla Spagna.', translation: 'I come from Spain.' },
+      { word: 'pugni', syllables: 'pù·gni', pronuncia: 'пù·ньи', meaning: 'fists / punches', example: 'Ha due pugni.', translation: 'He has two fists.' },
+      { word: 'ragni', syllables: 'rà·gni', pronuncia: 'рà·ньи', meaning: 'spiders', example: 'Vedo due ragni.', translation: 'I see two spiders.' },
+      { word: 'bagno', syllables: 'bà·gno', pronuncia: 'бà·ньо', meaning: 'bathroom / bath', example: 'Vado in bagno.', translation: 'I go to the bathroom.' },
+      { word: 'Polonia', syllables: 'Po·lò·nia', pronuncia: 'по·лò·ния', meaning: 'Poland', example: 'Vengo dalla Polonia.', translation: 'I come from Poland.' },
+      { word: 'montagne', syllables: 'mon·tà·gne', pronuncia: 'мон·тà·нье', meaning: 'mountains', example: 'Vedo le montagne.', translation: 'I see the mountains.' },
+      { word: 'ognuno', syllables: 'o·gnù·no', pronuncia: 'о·ньù·но', meaning: 'everyone / each one', example: 'Ognuno ha un libro.', translation: 'Everyone has a book.' },
+      { word: 'campagna', syllables: 'cam·pà·gna', pronuncia: 'кам·пà·нья', meaning: 'countryside / campaign', example: 'Vivo in campagna.', translation: 'I live in the countryside.' },
+      { word: 'bisogno', syllables: 'bi·só·gno', pronuncia: 'би·зó·ньо', meaning: 'need', example: 'Ho bisogno d\'acqua.', translation: 'I need water.' },
+      { word: 'uranio', syllables: 'u·rà·nio', pronuncia: 'у·рà·нио', meaning: 'uranium', example: 'L\'uranio è raro.', translation: 'Uranium is rare.' },
+      { word: 'insegnare', syllables: 'in·se·gnà·re', pronuncia: 'ин·се·ньà·рэ', meaning: 'to teach', example: 'Voglio insegnare.', translation: 'I want to teach.' },
+      { word: 'miniera', syllables: 'mi·niè·ra', pronuncia: 'ми·ньè·ра', meaning: 'mine', example: 'La miniera è grande.', translation: 'The mine is big.' },
+      { word: 'gennaio', syllables: 'gen·nà·io', pronuncia: 'джен·нà·йо', meaning: 'January', example: 'Gennaio è freddo.', translation: 'January is cold.' },
+      { word: 'febbraio', syllables: 'feb·brà·io', pronuncia: 'феб·брà·йо', meaning: 'February', example: 'Febbraio è corto.', translation: 'February is short.' },
+      { word: 'marzo', syllables: 'màr·zo', pronuncia: 'мàр·дзо', meaning: 'March', example: 'Marzo è bello.', translation: 'March is beautiful.' },
+      { word: 'aprile', syllables: 'a·prì·le', pronuncia: 'а·прì·ле', meaning: 'April', example: 'Aprile è bello.', translation: 'April is beautiful.' },
+      { word: 'maggio', syllables: 'màg·gio', pronuncia: 'мàд·джо', meaning: 'May', example: 'Maggio è caldo.', translation: 'May is warm.' },
+      { word: 'giugno', syllables: 'giù·gno', pronuncia: 'джù·ньо', meaning: 'June', example: 'Giugno è caldo.', translation: 'June is hot.' },
+      { word: 'agosto', syllables: 'a·gó·sto', pronuncia: 'а·гó·сто', meaning: 'August', example: 'Agosto è caldo.', translation: 'August is hot.' },
+      { word: 'settembre', syllables: 'set·tèm·bre', pronuncia: 'сет·тèм·брэ', meaning: 'September', example: 'Settembre arriva.', translation: 'September arrives.' },
+      { word: 'ottobre', syllables: 'ot·tó·bre', pronuncia: 'от·тó·брэ', meaning: 'October', example: 'Ottobre è fresco.', translation: 'October is cool.' },
+      { word: 'novembre', syllables: 'no·vèm·bre', pronuncia: 'но·вèм·брэ', meaning: 'November', example: 'Novembre è freddo.', translation: 'November is cold.' },
+      { word: 'dicembre', syllables: 'di·cèm·bre', pronuncia: 'ди·чèм·брэ', meaning: 'December', example: 'Dicembre è freddo.', translation: 'December is cold.' },
+      { word: 'dopo', syllables: 'dò·po', pronuncia: 'дò·по', meaning: 'after / later', example: 'Dopo mangio.', translation: 'I eat later.' },
+      { word: 'prima', syllables: 'prì·ma', pronuncia: 'прì·ма', meaning: 'before / first', example: 'Prima studio.', translation: 'First, I study.' },
+      { word: 'nuovi', syllables: 'nuò·vi', pronuncia: 'нуò·ви', meaning: 'new (masculine plural) — nuovo / nuova / nuovi / nuove', example: 'Due nuovi studenti.', translation: 'Two new students.' },
+      { word: 'avere', syllables: 'a·vé·re', pronuncia: 'а·вé·рэ', meaning: 'to have', example: 'Voglio avere un libro.', translation: 'I want to have a book.' },
+      { word: 'tutta', syllables: 'tùt·ta', pronuncia: 'тùт·та', meaning: 'all / the whole (fem. sg.) — tutto / tutta / tutti / tutte', example: 'Tutta la famiglia.', translation: 'The whole family.' },
+      { word: 'pochi', syllables: 'pò·chi', pronuncia: 'пò·ки', meaning: 'few (masc. pl.) — poco / poca / pochi / poche', example: 'Ho pochi amici.', translation: 'I have few friends.' },
+      { word: 'abbiamo', syllables: 'ab·bià·mo', pronuncia: 'аб·бьà·мо', meaning: 'we have', example: 'Abbiamo pochi amici.', translation: 'We have few friends.' },
+      { word: 'hanno', syllables: 'hàn·no', pronuncia: 'àн·но', meaning: 'they have', example: 'Hanno due figli.', translation: 'They have two children.' },
+      { word: 'molti', syllables: 'mól·ti', pronuncia: 'мóль·ти', meaning: 'many (masc. pl.) — molto / molta / molti / molte', example: 'Ho molti amici.', translation: 'I have many friends.' }
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

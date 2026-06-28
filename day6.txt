@@ -1,0 +1,24 @@
+#separator:tab
+#html:false
+alunni = a·lùn·ni	students / pupils  Per essempio: Gli alunni studiano. (The students study.)   pronuncia: алу́нни
+cambia = càm·bia	changes / change  Per essempio: Lei cambia casa. (She changes house.)  pronuncia: ка́мбия
+tutte = tùt·te	all / everyone / all of theme - feminine plural    Per essempio: Tutte le ragazze. (All the girls.)  pronuncia: ту́ттэ
+aghi = à·ghi	needles  Per essmpio: Gli aghi sono piccoli. (The needles are small.)  pronuncia: а́ги  ago = needle  aghi = needles
+guepardo = gue·pàr·do	cheetah  Per essempio: Il guepardo corre. (The cheetah runs.)  pronuncia: гуэпа́рдо
+larghezza = lar·ghéz·za	width   Per essempio: La larghezza e' grande. (The width is big.)  pronuncia: ларге́цца
+preghiera = pre·ghiè·ra	prayer  Per essempio: La preghiera è breve. (The prayer is short.)  pronuncia: прегьéра
+streghe = stré·ghe	witches  (the person who does magic)  Per essempio: Le streghe volano. (The witches fly.)  pronuncia: стре́ге
+ghiro = ghì·ro	kind of mice animal   Per essempio: Il ghiro dorme. (The mice sleeps.)  pronuncia: ги́ро
+paghe = pà·ghe	wages / salaries / payments  Per essempio: La paghe sono alte. (The wages are high.)  pronuncia: па́ге
+ghianda = ghiàn·da	fruit of oak tree.   Per essempio: La ghianda cade. (The acorn falls.)  pronuncia: гья́нда
+lunghezza = lun·ghéz·za	length   Per essempio: La lunghezza cambia. (The length changes.)  pronuncia: лунге́цца
+ghiaia = ghià·ia	gravel  Per essempio: La ghiaia  e' grigia. (The gravel is gray.)  pronuncia: гья́я
+righello = ri·ghèl·lo	ruler   Per essempio: Il righello e' lungo. (The ruler is long.)  pronuncia: ригэ́лло
+gabbia = gàb·bia	cage  Per essempio: La gabbia e piccola. (The cage is small.)  pronuncia: га́ббия
+governo = go·vèr·no	government   Per essempio: Il governo cambia. (The government changes.)  pronuncia: говэ́рно
+auguri = au·gù·ri	best wishes / congratulations   Per essempio: Tanti auguri! (Best wishes / Happy birthday!)  pronuncia: аугу́ри
+pagare = pa·gà·re	to pay   Per essempio: Devo pagare. (I have to pay.)  pronuncia: пага́рэ
+angolo = àn·go·lo	corner / angle   Per essempio: L'angolo e' qui. (The corner is here.)  pronuncia: а́нголо
+gomito = gó·mi·to	elbow   Per essempio: Il gomito fa male. (The elbow hurts.)  pronuncia: го́мито
+magro = mà·gro	thin /skinny / lean   Per essempio: Il gatto e' magro. (The cat is thin. )  pronuncia: ма́гро
+glucosio = glu·cò·sio	glucose  Per essempio: Il glucose e' alto. (The glucose is high.)  pronuncia: глуко́зио
