@@ -1,5 +1,17 @@
 #separator:tab
 #html:false
+fazzoletto = faz·zo·lét·to	handkerchief / tissue  Per essempio: Uso un fazzoletto. (I use an handkerchief.)  pronuncia: фаццоле́тто
+soldi = sól·di	money   Per essempio: Ho pochi soldi.(I have little money.)  pronuncia: со́льди
+uscire = u·scì·re	to go out / to exit / to leave   Per essempio: Voglio uscire. (I want to go out.)  pronuncia: уши́ре
+ballare = bal·là·re	to dance   Per essempio: Mi piace ballare. (I like dancing.)  pronuncia: балла́ре
+dormire = dor·mì·re	to sleep   Per essempio: Voglio dormire. (I want to sleep.)  pronuncia: дорми́ре
+aiuto = a·iù·to	help / aid   Per essempio: Ho bisognodi aiuto. (I need help.)  pronuncia: аю́то
+andare = an·dà·re	to go   Per essempio: Vado a scuola. (I go to the school.)  pronuncia: анда́ре
+al = al	to the / at the   Per essempio: Vado al mare. (I go to the beach.) pronuncia: аль  a + il = al a = to / at il = the  a + il = al
+imparare = im·pa·rà·re	to learn   Per essempio: Impararo italiano. (I learn italian.)  pronuncia: импара́ре
+parlare = par·là·re	to speak / to talk   Per essempio: Parl
+parlare = par·là·re	to speak / to talk   Per essempio: Parlo italiano. (I speak italian.)  pronuncia: парла́ре
+quanto = quàn·to	how much / how long   Per essempio: Quanto costa? (How much does it cost?)  pronuncia: куа́нто  Examples:  Quanto tempo? = How much time ? / How long?  Quanto costa ? = How much does it cost?  Quanto vuoi ? = How much do you want? Da quanto tempo sei qui ? = How long have you been here?
 alunni = a·lùn·ni	students / pupils  Per essempio: Gli alunni studiano. (The students study.)   pronuncia: алу́нни
 cambia = càm·bia	changes / change  Per essempio: Lei cambia casa. (She changes house.)  pronuncia: ка́мбия
 tutte = tùt·te	all / everyone / all of theme - feminine plural    Per essempio: Tutte le ragazze. (All the girls.)  pronuncia: ту́ттэ
