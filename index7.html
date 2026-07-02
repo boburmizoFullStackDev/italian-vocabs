@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 7</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a class="active" href="index7.html">Day 7</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `aspetta`, syllables: `a·spèt·ta`, pronuncia: `ас-пэ́т-та`, meaning: `wait / wait a moment`, example: `Aspetta qui.`, translation: `Wait here.` },
+      { word: `sottolineare`, syllables: `sot·to·li·ne·à·re`, pronuncia: `сот-то-ли-нэ-а́-рэ`, meaning: `to underline`, example: `Sottolinea la parola.`, translation: `Underline the word.` },
+      { word: `amare`, syllables: `a·mà·re`, pronuncia: `а-ма́-рэ`, meaning: `to love`, example: `Amo mia madre.`, translation: `I love my mother.` },
+      { word: `abbinare`, syllables: `ab·bi·nà·re`, pronuncia: `аб-би-на́-рэ`, meaning: `to match / to pair`, example: `Abbina le parole.`, translation: `Match the words.` },
+      { word: `cantare`, syllables: `can·tà·re`, pronuncia: `кан-та́-рэ`, meaning: `to sing`, example: `Canto una canzone.`, translation: `I sing a song.` },
+      { word: `canzone`, syllables: `can·zó·ne`, pronuncia: `кан-цо́-нэ`, meaning: `song`, example: `Bella canzone.`, translation: `Beautiful song.` },
+      { word: `parole`, syllables: `pa·ró·le`, pronuncia: `па-ро́-ле`, meaning: `words`, example: `Tre parole nuove.`, translation: `Three new words.` },
+      { word: `ballare`, syllables: `bal·là·re`, pronuncia: `бал-ла́-рэ`, meaning: `to dance`, example: `Balliamo insieme.`, translation: `We dance together.` },
+      { word: `bruciare`, syllables: `bru·cià·re`, pronuncia: `бру-ча́-рэ`, meaning: `to burn`, example: `Non bruciare!`, translation: `Don't burn!` },
+      { word: `sciare`, syllables: `sci·à·re`, pronuncia: `ши-а́-рэ`, meaning: `to ski`, example: `So sciare.`, translation: `I can ski.` },
+      { word: `lasci`, syllables: `là·sci`, pronuncia: `ла́-ши`, meaning: `you leave / you let`, example: `Lasci la porta.`, translation: `You leave the door.` },
+      { word: `pitturare`, syllables: `pit·tu·rà·re`, pronuncia: `пит-ту-ра́-рэ`, meaning: `to paint`, example: `Pitturo la casa.`, translation: `I paint the house.` },
+      { word: `aggettivi`, syllables: `ag·get·tì·vi`, pronuncia: `ад-жет-ти́-ви`, meaning: `adjectives`, example: `Aggettivi italiani.`, translation: `Italian adjectives.` },
+      { word: `rosso`, syllables: `rós·so`, pronuncia: `ро́с-со`, meaning: `red`, example: `Il vestito rosso.`, translation: `The red dress.` },
+      { word: `bianco`, syllables: `biàn·co`, pronuncia: `бья́н-ко`, meaning: `white`, example: `Il foglio bianco.`, translation: `The white sheet of paper.` },
+      { word: `nero`, syllables: `nè·ro`, pronuncia: `нэ́-ро`, meaning: `black`, example: `Il telefono nero.`, translation: `The black phone.` },
+      { word: `bello`, syllables: `bèl·lo`, pronuncia: `бэ́л-ло`, meaning: `beautiful / nice`, example: `Il vestito bello.`, translation: `The beautiful dress.` },
+      { word: `brutto`, syllables: `brùt·to`, pronuncia: `бру́т-то`, meaning: `ugly / bad`, example: `Un brutto giorno.`, translation: `A bad day.` },
+      { word: `buono`, syllables: `buò·no`, pronuncia: `буо́-но`, meaning: `good`, example: `Un buon libro.`, translation: `A good book.` },
+      { word: `cattivo`, syllables: `cat·tì·vo`, pronuncia: `кат-ти́-во`, meaning: `bad / mean`, example: `Un cattivo ragazzo.`, translation: `A bad boy.` },
+      { word: `alto`, syllables: `àl·to`, pronuncia: `а́л-то`, meaning: `tall / high`, example: `Un ragazzo alto.`, translation: `A tall boy.` },
+      { word: `basso`, syllables: `bàs·so`, pronuncia: `ба́с-со`, meaning: `short / low`, example: `Un tavolo basso.`, translation: `A low table.` },
+      { word: `molto`, syllables: `mòl·to`, pronuncia: `мо́л-то`, meaning: `very / much / a lot`, example: `Molto bello.`, translation: `Very beautiful.` },
+      { word: `in via`, syllables: `in vì·a`, pronuncia: `ин ви́-а`, meaning: `on / in street`, example: `Abito in via Rossini.`, translation: `I live on Rossini Street.` },
+      { word: `con chi`, syllables: `con chi`, pronuncia: `кон ки`, meaning: `with whom / who with`, example: `Con chi abiti?`, translation: `Who do you live with?` },
+      { word: `fidanzato`, syllables: `fi·dan·zà·to`, pronuncia: `фи-дан-дза́-то`, meaning: `boyfriend / fiancé`, example: `Il mio fidanzato.`, translation: `My boyfriend.` },
+      { word: `periferia`, syllables: `pe·ri·fe·rì·a`, pronuncia: `пэ-ри-фэ-ри́-а`, meaning: `suburbs / outskirts`, example: `Abito in periferia.`, translation: `I live in the suburbs.` },
+      { word: `a`, syllables: `a`, pronuncia: `а`, meaning: `to / in / at`, example: `Abito a Pesaro.`, translation: `I live in Pesaro.` },
+      { word: `riscrivi`, syllables: `ri·scrì·vi`, pronuncia: `ри-скри́-ви`, meaning: `rewrite / write again`, example: `Riscrivi la frase.`, translation: `Rewrite the sentence.` },
+      { word: `domande`, syllables: `do·màn·de`, pronuncia: `до-ма́н-дэ`, meaning: `questions`, example: `Tre domande.`, translation: `Three questions.` },
+      { word: `alle`, syllables: `àl·le`, pronuncia: `а́л-ле`, meaning: `at / to the`, example: `Sono alle otto.`, translation: `It is eight o'clock.` },
+      { word: `cucinare`, syllables: `cu·ci·nà·re`, pronuncia: `ку-чи-на́-рэ`, meaning: `to cook`, example: `Cucino la pasta.`, translation: `I cook the pasta.` },
+      { word: `parlo`, syllables: `pàr·lo`, pronuncia: `па́р-ло`, meaning: `I speak`, example: `Parlo italiano.`, translation: `I speak Italian.` },
+      { word: `bambina`, syllables: `bam·bì·na`, pronuncia: `бам-би́-на`, meaning: `girl / little girl`, example: `Una bambina alta.`, translation: `A tall girl.` },
+      { word: `capello`, syllables: `ca·pèl·lo`, pronuncia: `ка-пэ́л-ло`, meaning: `hair / one hair`, example: `Un capello nero.`, translation: `A black hair.` },
+      { word: `maglia`, syllables: `mà·glia`, pronuncia: `ма́-лья`, meaning: `shirt / sweater / jersey`, example: `Una maglia rossa.`, translation: `A red shirt.` },
+      { word: `gialla`, syllables: `giàl·la`, pronuncia: `джа́л-ла`, meaning: `yellow`, example: `Una maglia gialla.`, translation: `A yellow shirt.` },
+      { word: `calzino`, syllables: `cal·zì·no`, pronuncia: `кал-дзи́-но`, meaning: `sock`, example: `Un calzino giallo.`, translation: `A yellow sock.` },
+      { word: `scarpa`, syllables: `scàr·pa`, pronuncia: `ска́р-па`, meaning: `shoe`, example: `Dove è la scarpa?`, translation: `Where is the shoe?` },
+      { word: `guanto`, syllables: `guàn·to`, pronuncia: `гуа́н-то`, meaning: `glove`, example: `Ho perso un guanto.`, translation: `I lost one glove.` },
+      { word: `piccolo`, syllables: `pìc·co·lo`, pronuncia: `пи́к-ко-ло`, meaning: `small / little`, example: `Un bambino piccolo.`, translation: `A small child.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

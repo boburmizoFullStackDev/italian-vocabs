@@ -1,0 +1,43 @@
+#separator:tab
+#html:false
+aspetta = a·spèt·ta	wait / wait a moment   Per essempio: Aspetta qui. (Wait here.)  pronuncia: ас-пэ́т-та
+sottolineare = sot·to·li·ne·à·re	to underline   Per essempio: Sottolinea la parola. (Underline the word.)  pronuncia: сот-то-ли-нэ-а́-рэ
+amare = ama're	to love   Per essempio: Amo mia madre. (I love my mother.)  pronuncia: а-ма́-рэ
+abbinare = ab·bi·nà·re	to match / to pair (Match the words.)  pronuncia: аб-би-на́-рэ
+cantare = can·tà·re	to sing   Per essempio: Canto una canzone. (I sing a song.)  pronuncia: кан-та́-рэ
+canzone = can·zó·ne	song  Per essempio: Bella canzone. (Beatiful song.)  pronuncia: кан-цо́-нэ
+parole = pa·ró·le	words   Per essempio: Tre parole nuove. (Three new words.)  pronuncia: па-ро́-ле
+ballare = balla're	to dance   Per essempio: Balliamo insieme. (We dance together. )  pronuncia: бал-ла́-рэ
+bruciare = bru·cià·re	to burn  Per essempio: Non bruciare! (Don't burn.)  pronuncia: бру-ча́-рэ
+sciare = sci·à·re	to ski   Per essempio: So sciare. (I can ski.)  pronuncia: ши-а́-рэ
+lasci = là·sci	you leave / you let   Per essempio: Lasci la porta. (You leave the door.)  pronuncia: ла́-ши
+pitturare = pit·tu·rà·re	to paint   Per essempio: Pitturo la casa. (I paint the house. )  pronuncia: пит-ту-ра́-рэ
+aggettivi = ag·get·tì·vi	adjectives   Per essempio: Aggettivi italiani. (Italian adjectives.)  pronuncia: ад-жет-ти́-ви
+rosso = rós·so	red   Per essempio: Il vestito rosso. (The red dress.)  pronuncia: ро́с-со  Examples:  una pennna rossa > a red pen  due libri rossi > two red books  due penne rosse > two red pens
+bianco = biàn·co	white   Per essempio: Il foglio bianco. (The white sheet of paper.)  pronuncia: бья́н-ко  Examples:   una penna bianca > a white pen  due libri bianchi > two white books  due penne bianche > two white pens
+nero = nè·ro	black   Per essempio: Il telefono nero. (The black phone.)  pronuncia: нэ́-ро Examples:   una penna nera > a black pen  due pantaloni neri > two black trousers  due scarpe nere > two black shoes
+bello = bèl·lo	beatiful / nice   Per essempio: Il vestito bello. (The beatiful dress. )  pronuncia: бэ́л-ло  Examples : una casa bella > a beautiful house due quaderni belli > two beautiful notebooks due sedie belle > two beatiful chairs
+brutto = brùt·to	ugly / bad   Per essempio: Un brutto giorno (A bad day.) pronuncia: : бру́т-то  Examples:  Una foto brutta > an ugly photo  due vestiti brutti > two ugly clothes  due scarpe brutte > two  ugly shoes
+buono = buò·no	good   Per essempio: Un buon libro. (A good book.)  pronuncia: буо́-но
+cattivo = cat·tì·vo	bad / mean  Per essempio: Un cattivo ragazzo. (A bad boy.)  pronuncia: кат-ти́-во  Examples:  una rispota cattiva > a bad answer tre giorni cattivi > three bad days  tre persone cattive > three mean people
+alto = àl·to	tall / high   Per essempio: Un ragazzo alto. (A tall boy.)  pronuncia: а́л-то
+basso = bàs·so	short / low  Per essempio: Un tavolo basso. (A low table.)  pronuncia: ба́с-со
+molto = mo'lto	very / much / a lot    Per essempio: Molto bello. (Very beatiful.)  pronuncia: мо́л-то
+in via = in vì·a	on street / in street   Per essempio: Abito in via Rossini (I live on Rossini Street.)  pronuncia: ин ви́-а  in = in / on via = street / road
+con chi = con chi	with whom / who with   Per essempio: Con chi abiti? (Who do you live with?)  pronuncia: кон ки  Breakdown:  con = with chi = who
+fidanzato = fi·dan·zà·to	boyfriend / fiance'   Per essempio: Il mio fidanzato. (My boyfriend. )  pronuncia: фи-дан-дза́-то
+periferia = pe·ri·fe·rì·a	suburbs / outskirts    Per essempio: Abito in periferia. (I live in suburbs.)  pronuncia: пэ-ри-фэ-ри́-а
+a = a	to / in / at  Per esempio: Abito a Pesaro.  (I live in Pesaro.)  pronuncia: а
+riscrivi = ri·scrì·vi	rewrite / write again  Per essempio: Riscrivi la frase. (Rewrite the sentence. )  pronuncia: ри-скри́-ви
+domande = do·màn·de	questions   Per essempio: Tre domande (Three questions.)  pronuncia: до-ма́н-дэ
+alle = àl·le	at / to the (At eight o'clock. )  pronuncia: а́л-ле
+cucinare = cu·ci·nà·re	to cook   Per essempio: Cucino la pasta. (I cook the pasta.)  pronuncia: ку-чи-на́-рэ
+parlo = pàr·lo	speak  per essempio: Parlo italiano (I speak italian.)  pronuncia: па́р-ло
+bambina = bam·bì·na	girl / little girl   Per essempio: Una bambina alta. (A tall girl.)  pronuncia: бам-би́-на
+capello = ca·pèl·lo	hair / one hair   Per essempio: Un capello nero. (A black hair.)  pronuncia: ка-пэ́л-ло
+maglia = ma'glia	shirt / sweater / jersey   Per essempio: Una maglia rossa. (A red shirt.)  pronuncia: ма́-лья
+gialla = giàl·la	yellow   Per essempio: Una maglia gialla. (A yellow shirt.)  pronuncia: джа́л-ла
+calzino = cal·zì·no	sock / socks  Per essempio: Un calzino giallo. (A yellow sock.)  pronuncia: кал-дзи́-но
+scarpa = scàr·pa	shoe   Per essempio: Dove è la scarpa? (Where is the shoe?)  pronuncia: ска́р-па
+guanto = guàn·to	glove  Per essempio: Ho perso un guanto. (I lost one glove.)  pronuncia: гуа́н-то
+piccolo = pìc·co·lo	small / little   Per essempio: Un bambino piccolo. (A small child.)  pronuncia: пи́к-ко-ло
