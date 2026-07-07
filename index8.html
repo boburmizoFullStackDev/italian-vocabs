@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 8</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a href="index7.html">Day 7</a>
+    <a class="active" href="index8.html">Day 8</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `che`, syllables: `che`, pronuncia: `ке`, meaning: `what / which / that`, example: `Che lingua?`, translation: `What language?` },
+      { word: `poco`, syllables: `pò·co`, pronuncia: `по-ко`, meaning: `little / not much / few`, example: `Ho poco tempo.`, translation: `I have little time.` },
+      { word: `per`, syllables: `per`, pronuncia: `пер`, meaning: `for / to / through / by`, example: `Per te.`, translation: `For you.` },
+      { word: `costa`, syllables: `cò·sta`, pronuncia: `ко-ста`, meaning: `costs / it costs`, example: `Costa poco.`, translation: `It costs little.` },
+      { word: `questo`, syllables: `què·sto`, pronuncia: `куэ-сто`, meaning: `this / this one`, example: `Questo libro.`, translation: `This book.` },
+      { word: `gratuita`, syllables: `gra·tu·ì·ta`, pronuncia: `гра-ту-и-та`, meaning: `free / no-cost`, example: `Lezione gratuita.`, translation: `Free lesson.` },
+      { word: `ore`, syllables: `ò·re`, pronuncia: `о-ре`, meaning: `hours / o'clock`, example: `Che ore sono?`, translation: `What time is it?` },
+      { word: `in fretta`, syllables: `in frét·ta`, pronuncia: `ин фрет-та`, meaning: `quickly / in a hurry`, example: `Vado in fretta.`, translation: `I go quickly.` },
+      { word: `gli altri`, syllables: `gli àl·tri`, pronuncia: `льи аль-три`, meaning: `the others / other people`, example: `Aiuto gli altri.`, translation: `I help others.` },
+      { word: `piano`, syllables: `pià·no`, pronuncia: `пья-но`, meaning: `slowly / floor / plan / piano`, example: `Parla piano.`, translation: `Speak slowly.` },
+      { word: `suono`, syllables: `suò·no`, pronuncia: `суо-но`, meaning: `I play / sound`, example: `Suono il piano.`, translation: `I play the piano.` },
+      { word: `ordine`, syllables: `ór·di·ne`, pronuncia: `ор-ди-не`, meaning: `order / arrangement`, example: `Metto in ordine.`, translation: `I put in order.` },
+      { word: `giusta`, syllables: `giù·sta`, pronuncia: `джу-ста`, meaning: `right / correct / fair`, example: `Risposta giusta.`, translation: `Correct answer.` },
+      { word: `nella`, syllables: `nèl·la`, pronuncia: `нел-ла`, meaning: `in the / into the`, example: `Nella scuola.`, translation: `In the school.` },
+      { word: `lavorare`, syllables: `la·vo·rà·re`, pronuncia: `ла-во-ра-ре`, meaning: `to work`, example: `Voglio lavorare.`, translation: `I want to work.` },
+      { word: `mai`, syllables: `mài`, pronuncia: `май`, meaning: `never / ever`, example: `Mai tardi.`, translation: `Never late.` },
+      { word: `anche`, syllables: `àn·che`, pronuncia: `ан-ке`, meaning: `also / too / even`, example: `Anche io.`, translation: `Me too.` },
+      { word: `pesce`, syllables: `pés·ce`, pronuncia: `пе-ше`, meaning: `fish`, example: `Mangio pesce.`, translation: `I eat fish.` },
+      { word: `asciugamano`, syllables: `a·sciu·ga·mà·no`, pronuncia: `а-шу-га-ма-но`, meaning: `towel`, example: `Un asciugamano pulito.`, translation: `A clean towel.` },
+      { word: `ascensore`, syllables: `a·scen·só·re`, pronuncia: `а-шен-со-ре`, meaning: `elevator`, example: `Prendo l'ascensore.`, translation: `I take the elevator.` },
+      { word: `scivolo`, syllables: `scì·vo·lo`, pronuncia: `ши-во-ло`, meaning: `slide / I slip`, example: `Lo scivolo è rosso.`, translation: `The slide is red.` },
+      { word: `sci`, syllables: `scì`, pronuncia: `ши`, meaning: `ski`, example: `Uso gli sci.`, translation: `I use the skis.` },
+      { word: `cuscino`, syllables: `cu·scì·no`, pronuncia: `ку-ши-но`, meaning: `pillow / cushion`, example: `Cuscino morbido.`, translation: `Soft pillow.` },
+      { word: `sciroppo`, syllables: `sci·ròp·po`, pronuncia: `ши-роп-по`, meaning: `syrup`, example: `Sciroppo dolce.`, translation: `Sweet syrup.` },
+      { word: `sceriffo`, syllables: `sce·rìf·fo`, pronuncia: `ше-риф-фо`, meaning: `sheriff`, example: `Lo sceriffo arriva.`, translation: `The sheriff arrives.` },
+      { word: `scimmia`, syllables: `scìm·mia`, pronuncia: `шим-мья`, meaning: `monkey`, example: `Una scimmia piccola.`, translation: `A small monkey.` },
+      { word: `sciame`, syllables: `scià·me`, pronuncia: `шя-ме`, meaning: `swarm`, example: `Uno sciame d'api.`, translation: `A swarm of bees.` },
+      { word: `strisce`, syllables: `strì·sce`, meaning: `stripes / strips`, example: `Strisce blu.`, translation: `Blue stripes.` },
+      { word: `scintilla`, syllables: `scin·tìl·la`, pronuncia: `шин-тил-ла`, meaning: `spark`, example: `Una scintilla.`, translation: `A spark.` },
+      { word: `scendere`, syllables: `scèn·de·re`, pronuncia: `шен-де-ре`, meaning: `to go down / to get off`, example: `Scendo dal bus.`, translation: `I get off the bus.` },
+      { word: `lasciare`, syllables: `la·scià·re`, pronuncia: `ла-шя-ре`, meaning: `to leave / to let`, example: `Lascio la casa.`, translation: `I leave the house.` },
+      { word: `liscio`, syllables: `lì·scio`, pronuncia: `ли-шо`, meaning: `smooth / straight`, example: `Capelli lisci.`, translation: `Straight hair.` },
+      { word: `scelta`, syllables: `scèl·ta`, pronuncia: `шел-та`, meaning: `choice / selected`, example: `Scelta giusta.`, translation: `Right choice.` },
+      { word: `sciolto`, syllables: `sciòl·to`, pronuncia: `шоль-то`, meaning: `melted`, example: `Cioccolato sciolto.`, translation: `Melted chocolate.` },
+      { word: `sciatore`, syllables: `scia·tó·re`, pronuncia: `шя-то-ре`, meaning: `skier`, example: `Uno sciatore veloce.`, translation: `A fast skier.` },
+      { word: `veloce`, syllables: `ve·ló·ce`, pronuncia: `ве-ло-че`, meaning: `fast / quick`, example: `Treno veloce.`, translation: `Fast train.` },
+      { word: `scala`, syllables: `scà·la`, pronuncia: `ска-ла`, meaning: `stairs / scale`, example: `Scendo la scala.`, translation: `I go down the stairs.` },
+      { word: `scopa`, syllables: `scó·pa`, pronuncia: `ско-па`, meaning: `broom`, example: `Prendo la scopa.`, translation: `I take the broom.` },
+      { word: `scultura`, syllables: `scul·tù·ra`, pronuncia: `скул-ту-ра`, meaning: `sculpture`, example: `Bella scultura.`, translation: `Beautiful sculpture.` },
+      { word: `scrivania`, syllables: `scri·va·nì·a`, pronuncia: `скри-ва-ни-а`, meaning: `desk`, example: `Scrivania grande.`, translation: `Big desk.` },
+      { word: `fischietto`, syllables: `fi·schiét·to`, pronuncia: `фи-скьет-то`, meaning: `whistle`, example: `Fischietto piccolo.`, translation: `Small whistle.` },
+      { word: `maschera`, syllables: `mà·sche·ra`, pronuncia: `мас-ке-ра`, meaning: `mask`, example: `Una maschera nera.`, translation: `A black mask.` },
+      { word: `scarpa`, syllables: `scàr·pa`, pronuncia: `скар-па`, meaning: `shoe`, example: `Scarpa nera.`, translation: `Black shoe.` },
+      { word: `Scozia`, syllables: `Scò·zia`, pronuncia: `ско-цъя`, meaning: `Scotland`, example: `Vado in Scozia.`, translation: `I go to Scotland.` },
+      { word: `mosche`, syllables: `mó·sche`, pronuncia: `мо-ске`, meaning: `flies`, example: `Due mosche.`, translation: `Two flies.` },
+      { word: `bosco`, syllables: `bò·sco`, pronuncia: `бо-ско`, meaning: `forest / woods`, example: `Nel bosco.`, translation: `In the forest.` },
+      { word: `scatola`, syllables: `scà·to·la`, pronuncia: `ска-то-ла`, meaning: `box`, example: `Una scatola grande.`, translation: `A big box.` },
+      { word: `pesche`, syllables: `pés·che`, pronuncia: `пе-ске`, meaning: `peaches`, example: `Due pesche.`, translation: `Two peaches.` },
+      { word: `mischiare`, syllables: `mi·schià·re`, pronuncia: `ми-скья-ре`, meaning: `to mix`, example: `Mischio acqua e sale.`, translation: `I mix water and salt.` },
+      { word: `schiaffo`, syllables: `schiàf·fo`, pronuncia: `скья́ф-фо`, meaning: `slap`, example: `Uno schiaffo forte.`, translation: `A strong slap.` },
+      { word: `freschi`, syllables: `frè·schi`, pronuncia: `фрэ́с-ки`, meaning: `fresh / cool`, example: `Pesci freschi.`, translation: `Fresh fish.` },
+      { word: `caschi`, syllables: `cà·schi`, pronuncia: `ка́с-ки`, meaning: `helmets`, example: `Due caschi nuovi.`, translation: `Two new helmets.` },
+      { word: `fischiare`, syllables: `fi·schià·re`, pronuncia: `фи-скья́-ре`, meaning: `to whistle`, example: `Sai fischiare?`, translation: `Can you whistle?` },
+      { word: `rischio`, syllables: `rì·schio`, pronuncia: `ри́с-кьо`, meaning: `risk / danger`, example: `Senza rischio.`, translation: `Without risk.` },
+      { word: `schiacciare`, syllables: `schiac·cià·re`, pronuncia: `скьяч-ча́-ре`, meaning: `to crush / to press`, example: `Schiaccia il bottone.`, translation: `She presses the button.` },
+      { word: `perdo`, syllables: `pèr·do`, pronuncia: `пэ́р-до`, meaning: `I lose / I miss`, example: `Perdo l'autobus.`, translation: `I miss the bus.` },
+      { word: `prendo`, syllables: `prèn·do`, pronuncia: `прэ́н-до`, meaning: `I take / I have / I get`, example: `Prendo un tè.`, translation: `I have a tea.` },
+      { word: `chiedere`, syllables: `chiè·de·re`, pronuncia: `кье́-дэ-рэ`, meaning: `to ask / to ask for`, example: `Chiedo aiuto.`, translation: `I ask for help.` },
+      { word: `vedere`, syllables: `vé·de·re`, pronuncia: `вэ́-дэ-рэ`, meaning: `to see`, example: `Vedo l'autobus.`, translation: `I see the bus.` },
+      { word: `correre`, syllables: `còr·re·re`, pronuncia: `ко́р-рэ-рэ`, meaning: `to run`, example: `Corro al bar.`, translation: `I run to the café.` },
+      { word: `gradino`, syllables: `gra·dì·no`, pronuncia: `гра-ди́-но`, meaning: `step / stair`, example: `Salgo un gradino.`, translation: `I go up one step.` },
+      { word: `cadere`, syllables: `cà·de·re`, pronuncia: `ка́-дэ-рэ`, meaning: `to fall`, example: `Teo cade.`, translation: `Teo falls.` },
+      { word: `ridere`, syllables: `rì·de·re`, pronuncia: `ри́-дэ-рэ`, meaning: `to laugh`, example: `Rido molto.`, translation: `I laugh a lot.` },
+      { word: `piangere`, syllables: `piàn·ge·re`, pronuncia: `пья́н-дже-рэ`, meaning: `to cry`, example: `Il bambino piange.`, translation: `The baby cries.` },
+      { word: `oggi`, syllables: `òg·gi`, pronuncia: `о́дж-джи`, meaning: `today`, example: `Oggi studio.`, translation: `Today I study.` },
+      { word: `sotto`, syllables: `sót·to`, pronuncia: `со́т-то`, meaning: `under / below`, example: `Sotto il tavolo.`, translation: `Under the table.` },
+      { word: `biglietti`, syllables: `bi·gliét·ti`, pronuncia: `би-лье́т-ти`, meaning: `tickets`, example: `Due biglietti.`, translation: `Two tickets.` },
+      { word: `cosa`, syllables: `cò·sa`, pronuncia: `ко́-за`, meaning: `what / thing`, example: `Cosa chiede?`, translation: `What is he asking?` },
+      { word: `partire`, syllables: `par·tì·re`, pronuncia: `пар-ти́-рэ`, meaning: `to leave / to depart`, example: `Parto oggi.`, translation: `I leave today.` },
+      { word: `tutti i giorni`, syllables: `tùt·ti i giór·ni`, pronuncia: `ту́т-ти и джо́р-ни`, meaning: `every day / all days`, example: `Studio tutti i giorni.`, translation: `I study every day.` },
+      { word: `primo`, syllables: `prì·mo`, pronuncia: `при́-мо`, meaning: `first / first course`, example: `Prendo un primo.`, translation: `I have a first course.` },
+      { word: `aereo`, syllables: `a·è·re·o`, pronuncia: `а-э́-рэ-о`, meaning: `airplane / plane`, example: `Prendo l'aereo.`, translation: `I take the plane.` },
+      { word: `senza`, syllables: `sèn·za`, pronuncia: `сэ́н-дза`, meaning: `without`, example: `Senza occhiali.`, translation: `Without glasses.` },
+      { word: `occhiali`, syllables: `oc·chià·li`, pronuncia: `ок-кья́-ли`, meaning: `glasses / eyeglasses`, example: `Senza occhiali.`, translation: `Without glasses.` },
+      { word: `se`, syllables: `se`, pronuncia: `сэ`, meaning: `if`, example: `Se vuoi.`, translation: `If you want.` },
+      { word: `troppo`, syllables: `tròp·po`, pronuncia: `тро́п-по`, meaning: `too much / too many / too`, example: `Costa troppo.`, translation: `It costs too much.` },
+      { word: `prossimo`, syllables: `pròs·si·mo`, pronuncia: `про́с-си-мо`, meaning: `next`, example: `Lunedì prossimo.`, translation: `Next Monday.` },
+      { word: `ci`, syllables: `ci`, pronuncia: `чи`, meaning: `us / ourselves / there`, example: `Ci vediamo.`, translation: `We will see each other.` },
+      { word: `leggere`, syllables: `lèg·ge·re`, pronuncia: `ле́д-дже-рэ`, meaning: `to read`, example: `Leggo oggi.`, translation: `I read today.` },
+      { word: `conoscere`, syllables: `co·nó·sce·re`, pronuncia: `ко-но́-ше-рэ`, meaning: `to know / to meet`, example: `Conosco Marco.`, translation: `I know Marco.` },
+      { word: `sempre`, syllables: `sèm·pre`, pronuncia: `сэ́м-прэ`, meaning: `always`, example: `Sempre insieme.`, translation: `Always together.` },
+      { word: `felici`, syllables: `fe·lì·ci`, pronuncia: `фэ-ли́-чи`, meaning: `happy`, example: `Siamo felici.`, translation: `We are happy.` },
+      { word: `stasera`, syllables: `sta·sé·ra`, pronuncia: `ста-зэ́-ра`, meaning: `tonight / this evening`, example: `Ci vediamo stasera.`, translation: `We'll meet tonight.` },
+      { word: `pullman`, syllables: `pùll·man`, pronuncia: `пу́ль-ман`, meaning: `bus / coach`, example: `Prendo il pullman.`, translation: `I take the bus.` },
+      { word: `domani`, syllables: `do·mà·ni`, pronuncia: `до-ма́-ни`, meaning: `tomorrow`, example: `Parto domani.`, translation: `I leave tomorrow.` },
+      { word: `scegliere`, syllables: `scé·glie·re`, pronuncia: `ше́ль-е-рэ`, meaning: `to choose`, example: `Scegli un biglietto.`, translation: `Choose a ticket.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>
