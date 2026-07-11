@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 9</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a href="index7.html">Day 7</a>
+    <a href="index8.html">Day 8</a>
+    <a class="active" href="index9.html">Day 9</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `domani`, syllables: `do·mà·ni`, pronuncia: `домани`, meaning: `tomorrow`, example: `Domani parto per Roma.`, translation: `Tomorrow I leave for Rome.` },
+      { word: `pomeriggio`, syllables: `po·me·rìg·gio`, pronuncia: `помэриджо`, meaning: `afternoon`, example: `Nel pomeriggio studio italiano.`, translation: `I study Italian in the afternoon.` },
+      { word: `da`, syllables: `da`, pronuncia: `да`, meaning: `from / at / by / to`, example: `Vengo da Uzbekistan.`, translation: `I come from Uzbekistan.` },
+      { word: `mattina`, syllables: `mat·tì·na`, pronuncia: `маттина`, meaning: `morning`, example: `Domani mattina parto.`, translation: `I leave tomorrow morning.` },
+      { word: `rimanere`, syllables: `ri·ma·né·re`, pronuncia: `риманэре`, meaning: `to stay / to remain`, example: `Voglio rimanere qui.`, translation: `I want to stay here.` },
+      { word: `dormire`, syllables: `dor·mì·re`, pronuncia: `дормире`, meaning: `to sleep`, example: `Voglio dormire.`, translation: `I want to sleep.` },
+      { word: `aprire`, syllables: `a·prì·re`, pronuncia: `априре`, meaning: `to open`, example: `Puoi aprire la porta?`, translation: `Can you open the door?` },
+      { word: `potere`, syllables: `po·té·re`, pronuncia: `потэре`, meaning: `to be able to / can`, example: `Posso aiutarti.`, translation: `I can help you.` },
+      { word: `stare attenti`, syllables: `stà·re at·tèn·ti`, pronuncia: `старе аттэнти`, meaning: `to be careful (plural)`, example: `State attenti!`, translation: `Be careful!` },
+      { word: `porta`, syllables: `pòr·ta`, pronuncia: `порта`, meaning: `door`, example: `La porta è aperta.`, translation: `The door is open.` },
+      { word: `negozio`, syllables: `ne·gò·zio`, pronuncia: `нэгоцио`, meaning: `shop / store`, example: `Il negozio apre alle nove.`, translation: `The shop opens at 9 o'clock.` },
+      { word: `vestiti`, syllables: `ve·stì·ti`, pronuncia: `вэстити`, meaning: `clothes`, example: `Compro vestiti nuovi.`, translation: `I buy new clothes.` },
+      { word: `ci`, syllables: `ci`, pronuncia: `чи`, meaning: `us / each other / there`, example: `Ci vediamo domani.`, translation: `We see each other tomorrow.` },
+      { word: `dopo`, syllables: `dò·po`, pronuncia: `допо`, meaning: `after / later`, example: `Ci vediamo dopo.`, translation: `See you later.` },
+      { word: `senza`, syllables: `sèn·za`, pronuncia: `сэнза`, meaning: `without`, example: `Bevo il caffè senza zucchero.`, translation: `I drink coffee without sugar.` },
+      { word: `zucchero`, syllables: `zùc·che·ro`, pronuncia: `дзу́к-кэ-ро`, meaning: `sugar`, example: `Bevo con o senza zucchero?`, translation: `With or without sugar?` },
+      { word: `coprire`, syllables: `co·prì·re`, pronuncia: `копри́-рэ`, meaning: `to cover`, example: `Copri il tavolo con una tovaglia.`, translation: `Cover the table with a tablecloth.` },
+      { word: `biglietti`, syllables: `bi·gliét·ti`, pronuncia: `би-лье́т-ти`, meaning: `tickets`, example: `Due biglietti.`, translation: `Two tickets.` },
+      { word: `cosa`, syllables: `cò·sa`, pronuncia: `ко́-за`, meaning: `what / thing`, example: `Cosa chiede?`, translation: `What is he asking?` },
+      { word: `partire`, syllables: `par·tì·re`, pronuncia: `пар-ти́-рэ`, meaning: `to leave / to depart`, example: `Parto oggi.`, translation: `I leave today.` },
+      { word: `tutti i giorni`, syllables: `tùt·ti i giór·ni`, pronuncia: `ту́т-ти и джо́р-ни`, meaning: `every day / all days`, example: `Studio tutti i giorni.`, translation: `I study every day.` },
+      { word: `primo`, syllables: `prì·mo`, pronuncia: `при́-мо`, meaning: `first / first course`, example: `Prendo un primo.`, translation: `I have a first course.` },
+      { word: `aereo`, syllables: `a·è·re·o`, pronuncia: `а-э́-рэ-о`, meaning: `airplane / plane`, example: `Prendo l'aereo.`, translation: `I take the plane.` },
+      { word: `occhiali`, syllables: `oc·chià·li`, pronuncia: `ок-кья́-ли`, meaning: `glasses / eyeglasses`, example: `Senza occhiali.`, translation: `Without glasses.` },
+      { word: `se`, syllables: `se`, pronuncia: `сэ`, meaning: `if`, example: `Se vuoi.`, translation: `If you want.` },
+      { word: `troppo`, syllables: `tròp·po`, pronuncia: `тро́п-по`, meaning: `too much / too many / too`, example: `Costa troppo.`, translation: `It costs too much.` },
+      { word: `prossimo`, syllables: `pròs·si·mo`, pronuncia: `про́с-си-мо`, meaning: `next`, example: `Lunedì prossimo.`, translation: `Next Monday.` },
+      { word: `leggere`, syllables: `lèg·ge·re`, pronuncia: `ле́д-дже-рэ`, meaning: `to read`, example: `Leggo ogni giorno.`, translation: `I read every day.` },
+      { word: `conoscere`, syllables: `co·nó·sce·re`, pronuncia: `ко-но́-ше-рэ`, meaning: `to know / to meet`, example: `Conosco Marco.`, translation: `I know Marco.` },
+      { word: `sempre`, syllables: `sèm·pre`, pronuncia: `сэ́м-прэ`, meaning: `always`, example: `Studio sempre.`, translation: `I always study.` },
+      { word: `felici`, syllables: `fe·lì·ci`, pronuncia: `фэ-ли́-чи`, meaning: `happy`, example: `Siamo felici.`, translation: `We are happy.` },
+      { word: `stasera`, syllables: `sta·sé·ra`, pronuncia: `ста-зэ́-ра`, meaning: `tonight / this evening`, example: `Ci vediamo stasera.`, translation: `We'll meet tonight.` },
+      { word: `pullman`, syllables: `pùll·man`, pronuncia: `пу́ль-ман`, meaning: `bus / coach`, example: `Prendo il pullman.`, translation: `I take the bus.` },
+      { word: `scegliere`, syllables: `scé·glie·re`, pronuncia: `ше́ль-е-рэ`, meaning: `to choose`, example: `Scegli un biglietto.`, translation: `Choose a ticket.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

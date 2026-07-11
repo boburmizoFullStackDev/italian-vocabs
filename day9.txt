@@ -1,0 +1,36 @@
+#separator:tab
+#html:false
+domani (do-mà-ni)	tomorrow   Per essempio: Domani parto per Roma. (Tomorrow I leave for Rome.)  pronuncia: домани
+pomeriggio (po-me-rìg-gio)	afternoon   Per essempio: Nel pomeriggio studio italiano. (I study italian in the afternoon.)  pronuncia: помэриджо
+da	from; at; by; to (someone's place)  Per essempio: Vengo da Uzbekistan. (I come from Uzbekistan.)  pronuncia: да
+mattina (mat-tì-na)	morning   Per essempio: Domani mattina parto. (I leave tomorrow morning.)  pronuncia: маттина
+rimanere (ri-ma-né-re)	to stay; to remain  Per essempio: Voglio rimanere qui. (I want to stay here.)  pronuncia: риманэре
+dormire (dor-mì-re)	to sleep   Per essempio: Voglio dormire. (I want to sleep.)  pronuncia: дормире
+aprire (a-prì-re)	to open   Per essempio: Puoi aprire la porta? (Can you open the door?)  pronuncia: априре
+potere (po-té-re)	to be able to; to can   Per essempio: Posso aiutarti. (I can help you.)  pronuncia: потэре
+stare attenti (stà-re at-tèn-ti)	to be careful (plural)  Per essempio: State attenti! (Be careful!)   pronuncia: старе аттэнти
+porta (pòr-ta)	door   per essempio: La porta e' aperta. (The door is open.)  pronuncia: порта
+negozio (ne-gò-zio)	shop; store   Per essempio: Il negozio apre alle nove. (The shop opens at 9 o'clock.)  pronuncia: нэгоцио
+vestiti (ve-stì-ti)	clothes   Per essempio: Compro vestiti nuovi. (I buy new clothes.)  pronuncia: вэстити
+ci (ci)	us, each other; there   Per essempio: Ci vediamo domani. (We see each other tomorrow.)  pronuncia: чи
+dopo (dò-po)	after; later   Per essempio: Ci vediamo dopo. (See you later.)  pronuncia: допо
+senza (sèn-za)	without   Per essempio: Bevo il caffè senza zucchero. (I drink coffee without sugar.)  pronuncia: сэнза
+zucchero = zùc·che·ro	sugar   Per essempio: Bevo con o senza zucchero? (With or without sugar?)  pronuncia: дзу́к-кэ-ро
+coprire = co·prì·re	to cover   Per essempio: Copri il tavolo con una tovaglia. (Cover the table with a tablecloth.)  pronuncia: копри́-рэ
+biglietti = bi·gliét·ti	tickets   Per essempio: Due biglietti. (Two tickets.)  pronuncia: би-лье́т-ти
+cosa = cò·sa	what / thing   Per essempio: Cosa chiede? (What is he asking?)  pronuncia: ко́-за
+partire = par·tì·re	to leave / to depart   Per essempio: Parto oggi. (I leave today.)  pronuncia: пар-ти́-рэ
+tutti i giorni = tùt·ti i giór·ni	every day / all days   Per essempio: Studio tutti i giorni. (I study every day.)  pronuncia: ту́т-ти и джо́р-ни
+primo = prì·mo	first / first course   Per essempio: Prendo un primo. (I have a first course.)  pronuncia: при́-мо
+aereo = a·è·re·o	airplane / plane   Per essempio: Prendo l'aereo. (I take the plane.)  pronuncia: а-э́-рэ-о
+occhiali = oc·chià·li	glasses / eyeglasses   Per essempio: Senza occhiali. (Without glasses.)  pronuncia: ок-кья́-ли
+se = se	if   Per essempio: Se vuoi. (If you want.)  pronuncia: сэ
+troppo = tròp·po	too much / too many / too   Per essempio: Costa troppo. (It costs too much.)  pronuncia: тро́п-по
+prossimo = pròs·si·mo	next   Per essempio: Lunedì prossimo. (Next Monday.)  pronuncia: про́с-си-мо
+leggere = lèg·ge·re	to read   Per essempio: Leggo ogni giorno. (I read every day.)  pronuncia: ле́д-дже-рэ
+conoscere = co·nó·sce·re	to know / to meet   Per essempio: Conosco Marco. (I know Marco.)  pronuncia: ко-но́-ше-рэ
+sempre = sèm·pre	always   Per essempio: Studio sempre. (I always study.)  pronuncia: сэ́м-прэ
+felici = fe·lì·ci	happy   Per essempio: Siamo felici. (We are happy.)  pronuncia: фэ-ли́-чи
+stasera = sta·sé·ra	tonight / this evening   Per essempio: Ci vediamo stasera. (We'll meet tonight.)  pronuncia: ста-зэ́-ра
+pullman = pùll·man	bus / coach   Per essempio: Prendo il pullman. (I take the bus.)  pronuncia: пу́ль-ман
+scegliere = scé·glie·re	to choose   Per essempio: Scegli un biglietto. (Choose a ticket.)  pronuncia: ше́ль-е-рэ
