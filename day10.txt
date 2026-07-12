@@ -1,0 +1,28 @@
+#separator:tab
+#html:false
+chiamare chia-mà-re	to call; to name   Ti chiamo domani. (I will call you tomorrow.)  pronuncia: кьяма́ре
+come	how; what   Come ti chiame? (What is your name?)  pronuncia: ко́ме
+Inghilterra in-ghil-tèr-ra	England   Vengo dall'Inghilterra. (I come from England.)  pronuncia: ингильте́рра
+fungo fùn-go	mushroom   Il fungo e' sul tavolo. (The mushroom is on the table!)  pronuncia: фу́нго
+vocale vo-cà-le	vowel   In italiano ci sono cinque vocali: A, E, I, O, U. (In italian, there are five vowels: A, E, I, O, U).  pronuncia: вока́ле
+consonante con-so-nàn-te	consonant   La lettera B e' una consonanta. (The letter B is consonant.)  pronuncia: консонàнте
+pronome pro-nó-me	pronoun   io, tu, lui e lei sono pronomi. (I, You, he and she are pronouns.)  pronuncia: проно́ме
+ciabatta cia-bàt-ta	slipper   Le mie ciabatte sono sotto il letto. (My slippers are under the bed.)  pronuncia: чаба́тта
+classe clàs-se	class   La mia classe e' molto tranquilla. (My class is very quiet.)  pronuncia: кла́ссе
+cucchiaio cuc-chià-io	spoon   il cucchiaio e' nel casseto. (The spoon is in the drawer.)  pronuncia: куккья́йо
+città cit-tà	city   Vivo in una citta grande. (I live in a big city.)  pronuncia: читта́
+cuoco cuò-co	cook; chef  Il cuoco prepara la cena. (The chef prepares dinner.)  pronuncia: куо́ко
+bicchiere bic-chiè-re	glass  Il bicchiere e' pieno d'acqua. (The glass is full of water. )  pronuncia: биккье́ре
+camera cà-me-ra	room, bedroom   La mia camera e' al secondo piano. (My bed is on the second floor.)  pronuncia: ка́мера
+cucchiaino cuc-chia-ì-no	teaspoon   il cucchiaino e' accanto alla tazza. (the teaspoon is next to the cup.)  pronuncia: куккьяи́но
+ieri iè-ri	yesterday   Ieri ho studiano italiano. (Yesterday, I studied italian.)  pronuncia: е́ри
+l'altro ieri	the day before yesterday   L'altro ieri sono andato a scuola. (The day before yesterday, I went to school.)  pronuncia: ла́льтро е́ри
+pomeriggio po-me-rìg-gio	afternoon  Nel pomeriggio studio italiano. (In the afternoon, I study italian.)  pronuncia: помери́джо
+più	plus, more   Due piu' due uguale quattro. (Two plus two equals four.)  pronuncia: пью̀
+meno	minus, less  Quattro meno tre uguale uno. (Four minus three equal one.)  pronuncia: ме́но
+per	times, multiplied by   tre pen tre uguale nove. (Three times three equals nine.)  pronuncia: пер
+diviso	divided by     Dieci diviso due uguale cinque. (Ten divided by two equals to five.)  pronuncia: диви́зо
+uguale u-guà-le	equals, equal   Due pi'u due uguale quattro. (Two plus two equals four.)  pronuncia: угуа́ле
+battaglia bat-tà-glia	battle   La battaglia e finita. (the battle  is over.)  pronuncia: батта́лья
+navale na-và-le	naval, related to ships    La battaglia navale è famosa. (The naval battle is famous.)  pronuncia: нава́ле
+pannello pan-nèl-lo	panel   Il panello e' sul muro. (The panel is on the wall.)  pronuncia: паннэ́лло
