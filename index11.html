@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 11</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a href="index7.html">Day 7</a>
+    <a href="index8.html">Day 8</a>
+    <a href="index9.html">Day 9</a>
+    <a href="index10.html">Day 10</a>
+    <a class="active" href="index11.html">Day 11</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `stare`, syllables: `stà·re`, pronuncia: `ста́ре`, meaning: `to be / to stay`, example: `Come stai?`, translation: `How are you?` },
+      { word: `abbastanza`, syllables: `ab·ba·stàn·za`, pronuncia: `аббаста́нца`, meaning: `enough / quite`, example: `Ho abbastanza tempo.`, translation: `I have enough time.` },
+      { word: `dispiacere`, syllables: `di·spia·cé·re`, pronuncia: `диспьяче́ре`, meaning: `to be sorry / to regret`, example: `Mi dispiace.`, translation: `I'm sorry.` },
+      { word: `salutare`, syllables: `sa·lu·tà·re`, pronuncia: `салюта́ре`, meaning: `to greet / to say hello`, example: `Salutalo da parte mia.`, translation: `Say hello to him for me.` },
+      { word: `vedere`, syllables: `ve·dé·re`, pronuncia: `ведэ́ре`, meaning: `to see`, example: `Vediamo.`, translation: `Let's see.` },
+      { word: `ci`, syllables: `ci`, pronuncia: `чи`, meaning: `us / to us / there / each other`, example: `Ci vediamo domani.`, translation: `We'll see each other tomorrow.` },
+      { word: `male`, syllables: `mà·le`, pronuncia: `ма́ле`, meaning: `badly / ill / poorly`, example: `Li Ping sta male.`, translation: `Li Ping is sick.` },
+      { word: `perché`, syllables: `per·ché`, pronuncia: `перке́`, meaning: `why / because`, example: `Perché stai male?`, translation: `Why are you sick?` },
+      { word: `sposato / sposata`, syllables: `spo·sà·to / spo·sà·ta`, pronuncia: `споза́то / споза́та`, meaning: `married`, example: `Maria è sposata.`, translation: `Maria is married.` },
+      { word: `domanda`, syllables: `do·màn·da`, pronuncia: `дома́нда`, meaning: `question`, example: `Ho una domanda.`, translation: `I have a question.` },
+      { word: `di`, syllables: `di`, pronuncia: `ди`, meaning: `of / from / about / by`, example: `Sono di Bukhara.`, translation: `I am from Bukhara.` },
+      { word: `infermiere`, syllables: `in·fer·miè·re`, pronuncia: `инфермье́ре`, meaning: `nurse`, example: `Loro sono infermieri.`, translation: `They are nurses.` },
+      { word: `chiave`, syllables: `chià·ve`, pronuncia: `кья́ве`, meaning: `key`, example: `Dove sono le chiavi?`, translation: `Where are the keys?` },
+      { word: `permesso`, syllables: `per·més·so`, pronuncia: `перме́ссо`, meaning: `excuse me / permission / allowed`, example: `Permesso! Posso entrare?`, translation: `Excuse me! May I come in?` },
+      { word: `soggiorno`, syllables: `sog·giòr·no`, pronuncia: `соджо́рно`, meaning: `living room / stay`, example: `Il soggiorno è molto grande.`, translation: `The living room is very large.` },
+      { word: `invece`, syllables: `in·vé·ce`, pronuncia: `инве́че`, meaning: `instead / on the other hand`, example: `Io bevo tè, invece lui beve caffè.`, translation: `I drink tea, while he drinks coffee.` },
+      { word: `così`, syllables: `co·sì`, pronuncia: `кози́`, meaning: `like this / this way`, example: `Si dice così.`, translation: `You say it like this.` },
+      { word: `così così`, syllables: `co·sì co·sì`, meaning: `so-so / not bad, not great`, example: `Come stai? — Così così.`, translation: `How are you? — So-so.` },
+      { word: `suddividere`, syllables: `sud·di·vì·de·re`, pronuncia: `суддиви́дере`, meaning: `to divide / to split`, example: `Le pareti suddividono le stanze.`, translation: `The walls divide the rooms.` },
+      { word: `osservare`, syllables: `os·ser·và·re`, pronuncia: `оссерва́ре`, meaning: `to observe / to watch`, example: `Osserva la foto.`, translation: `Observe the photo.` },
+      { word: `passare`, syllables: `pas·sà·re`, pronuncia: `пасса́ре`, meaning: `to pass / to go by / to spend`, example: `Passa il sale, per favore.`, translation: `Pass the salt, please.` },
+      { word: `matita`, syllables: `ma·tì·ta`, pronuncia: `мати́та`, meaning: `pencil`, example: `Ho una matita.`, translation: `I have a pencil.` },
+      { word: `donna`, syllables: `dòn·na`, pronuncia: `до́нна`, meaning: `woman`, example: `Quella donna è mia madre.`, translation: `That woman is my mother.` },
+      { word: `bagno`, syllables: `bà·gno`, pronuncia: `ба́ньо`, meaning: `bathroom / bath`, example: `Il bagno è al primo piano.`, translation: `The bathroom is on the first floor.` },
+      { word: `lavoro`, syllables: `la·vó·ro`, pronuncia: `лаво́ро`, meaning: `work / job`, example: `Ho molto lavoro oggi.`, translation: `I have a lot of work today.` },
+      { word: `astuccio`, syllables: `a·stùc·cio`, pronuncia: `асту́ччо`, meaning: `pencil case`, example: `L'astuccio è nello zaino.`, translation: `The pencil case is in the backpack.` },
+      { word: `fiume`, syllables: `fiù·me`, pronuncia: `фью́ме`, meaning: `river`, example: `Il fiume è molto lungo.`, translation: `The river is very long.` },
+      { word: `dottore`, syllables: `dot·tó·re`, pronuncia: `дотто́ре`, meaning: `doctor`, example: `Il dottore visita un paziente.`, translation: `The doctor examines a patient.` },
+      { word: `pesce`, syllables: `pé·sce`, pronuncia: `пе́ше`, meaning: `fish`, example: `Il pesce è fresco.`, translation: `The fish is fresh.` },
+      { word: `badante`, syllables: `ba·dàn·te`, pronuncia: `бада́нте`, meaning: `caregiver`, example: `La badante aiuta l'anziano ogni giorno.`, translation: `The caregiver helps the elderly person every day.` },
+      { word: `insegnante`, syllables: `in·se·gnàn·te`, pronuncia: `инсенья́нте`, meaning: `teacher`, example: `L'insegnante spiega la lezione.`, translation: `The teacher explains the lesson.` },
+      { word: `poi`, syllables: `pòi`, pronuncia: `пой`, meaning: `then / afterwards`, example: `Prima studio, poi mangio.`, translation: `First I study, then I eat.` },
+      { word: `scarpa`, syllables: `scàr·pa`, pronuncia: `ска́рпа`, meaning: `shoe`, example: `La scarpa è nuova.`, translation: `The shoe is new.` },
+      { word: `vestito`, syllables: `ve·stì·to`, pronuncia: `ве́сти́то`, meaning: `dress / suit / outfit`, example: `Il vestito è elegante.`, translation: `The dress is elegant.` },
+      { word: `sapone`, syllables: `sa·pó·ne`, pronuncia: `сапо́не`, meaning: `soap`, example: `Il sapone è in bagno.`, translation: `The soap is in the bathroom.` },
+      { word: `suono dolce`, syllables: `suò·no dòl·ce`, pronuncia: `суо́но до́льче`, meaning: `sweet sound`, example: `La musica ha un suono dolce.`, translation: `The music has a sweet sound.` },
+      { word: `mezzo`, syllables: `méz·zo`, pronuncia: `ме́дзо`, meaning: `half / middle / medium`, example: `Bevo mezzo bicchiere d'acqua.`, translation: `I drink half a glass of water.` },
+      { word: `È mezzogiorno`, syllables: `è mez·zo·giòr·no`, pronuncia: `è меццо-джо́рно`, meaning: `It is noon / 12:00`, example: `È mezzogiorno!`, translation: `It is noon!` },
+      { word: `è l'una`, syllables: `è l'ù·na`, pronuncia: `è лу́на`, meaning: `it is one o'clock`, example: `È l'una di notte.`, translation: `It is one o'clock at night.` },
+      { word: `compleanno`, syllables: `com·ple·àn·no`, pronuncia: `комплеа́нно`, meaning: `birthday`, example: `Oggi è il mio compleanno.`, translation: `Today is my birthday.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

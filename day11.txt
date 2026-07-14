@@ -1,0 +1,42 @@
+#separator:tab
+#html:false
+stare sta-re	to be, to stay   Per essempio: Come stai? (How are you?)  pronuncia: стай
+abbastanza ab-ba-stàn-za	enough; quite  Per essempio: Ho abbastanza tempo. (I have enough time.)  pronuncia: аббаста́нца
+dispiacere di-spia-cé-re	to be sorry; to regret;   Per essempio: Mi dispiace. (I'm sorry.)  pronuncia: диспьяче́ре
+salutare sa-lu-tà-re	to greet; to say hello to;   Per essempio: Salutalo da parte mia. (Say hellp to him for me.)  pronuncia: салюта́ре
+vedere ve-dé-re	to see  Per essempio: Vediamo. (Let's see.)  pronuncia: ведя́мо
+ci	us; to us; there; each other (depends on the context)  per essempio: Ci vediamo domani.   pronuncia: чи
+male mà-le	badly; ill; poorly   Per essempio: Li Ping sta male. (Li Ping is sick.)  pronuncia: ма́ле
+perché per-ché	why; because  Perche' stai male? (Why are you sick?)  pronuncia: перке́
+sposato / sposata spo-sà-to / spo-sà-ta	married   Maria e' sposata. (Maria is married.)  pronuncia: споза́то / споза́та
+domanda do-màn-da	question   Per essempio: Ho una domanda. (I have a question.)  pronuncia: дома́нда
+di - di	of; from; about; by   Per essempio: Sono di Bukhara. (I am from Bukhara.)  pronuncia: ди
+infermiere - in·fer·miè·re	nurse  Per essempio: Loro sono infermieri. (They are nurses.)  pronuncia: инфермье́ре
+chiave - chià·ve	key  Per essempio:  Dove sono le chiavi? (Where are the keys?)  pronuncia: кья́ве
+permesso - per·més·so	execuse me; permission; allowed   Per essempio: Permesso! Posso entrare? (Sorry! May I come in?)  pronuncia: перме́ссо
+soggiorno - sog·giòr·no	living room; stay (in a place)  Per essempio: Il soggiorno è molto grande. (The living room is very large.)  pronuncia: соджо́рно
+invece - in·vé·ce	instead; on the other hand   Per essempio: Io bevo tè, invece lui beve caffè. (I drink tea, while he drinks coffee.)  pronuncia: инве́че
+così - co·sì	like this; this way   Per essempio: Si dice così. (You say it like this.)  pronuncia: кози́
+così così - co·sì co·sì	so-so; not bad, not great  Per esempio:  Come stai? — Così così. (How are you? — So-so.)
+suddividere - sud·di·vì·de·re	to divide; to split;   Per esempio: Le pareti suddividono le stanze. (The walls divide the rooms.)  pronuncia: суддиви́дере
+osservare - os·ser·và·re	to observe; to watch   Per essempio: Osserva la foto. (Observe the photo.)  pronuncia: оссерва́ре
+passare - pas·sà·re	to pass; to go by; to spend (time)  Per essempio: Passa il sale, per favore. (Pass the salt, please.)  pronuncia: пасса́ре
+matita - ma·tì·ta	pencil   Per essempio: Ho una matita. (I have a pencil.)  pronuncia: мати́та
+donna - dòn·na	woman   Per essempio: Quella donna è mia madre. (That woman is my mother.)  pronuncia: до́нна
+bagno - bà·gno	bathroom; bath   Per essempio: Il bagno e' al primo piano. (The bathroom is on the first floor. )  pronuncia: ба́ньо
+lavoro - la·vó·ro	work; job  Per essempio: Ho molto lavoro oggi. (I have a lot of work today.)  pronuncia: лаво́ро
+astuccio - a·stùc·cio	pencil case   per essempio: L'astuccio è nello zaino. (The pencil case is in the backpack.)  pronuncia: асту́ччо
+fiume - fiù·me	river   Per essempio: il fiume e' molto lungo. (The river is very long.)  pronuncia: фью́ме
+dottore - dot·tó·re	doctor   Per essempio: ll dottore visita un paziente. (The doctor examines a patient. )  pronuncia: дотто́ре
+pesce - pé·sce	fish   Per essempio: Il pesce e' fresco. (The fish is fresh.)  pronuncia: пе́ше
+badante - ba·dàn·te	caregiver   Per essempio: La badante aiuta l'anziano ogni giorno. (The caregiver helps the elderly person every day.)  pronuncia: бада́нте
+insegnante - in·se·gnàn·te	teacher   Per essempio: L'insegnante spiega la lezione. (The teacher explains the lesson.)  pronuncia: инсенья́нте
+poi - pòi	then / afterwards   Per essempio: Prima studio, poi mangio. (First, I study, then I eat.)  pronuncia: пой
+scarpa - scàr·pa	shoe   Per essempio: la scarpa e' nuova. (The shoe is new.)  pronuncia: ска́рпа
+vestito - ve·stì·to	dress / suit / outfit   Per essempio: il verstito e' elegante. (The dress is elegant.)  pronuncia: веcти́то
+sapóne	soap   Per essempio: Il sapone e' in bagno. (The soap is in the bathroom.)  pronuncia: сапо́не
+suóno dólce	sweet sound   Per essempio: La musica ha un suono dolce. (The music has a sweet, soft sound.)  pronuncia: суо́но до́льче
+mézzo	half / middle / medium  Per essempio: Bevo mezzo bicchiere d'acqua. (I drink half a glass of water.)  pronuncia: ме́дзо
+È mezzogiorno	It is noon / It is twelve o’clock (12:00)  pronuncia: è меццо-джо́рно
+è l'una (1:00)	it is one o’clock  Per essempio: È l'una di notte. (It is one o’clock at night.)  pronuncia: è лу́на
+compleanno	birthday  Per esempio:  Oggi è il mio compleanno. (Today is my birthday.)  pronuncia: комплеа́нно
