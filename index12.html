@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a href="index7.html">Day 7</a>
+    <a href="index8.html">Day 8</a>
+    <a href="index9.html">Day 9</a>
+    <a href="index10.html">Day 10</a>
+    <a href="index11.html">Day 11</a>
+    <a class="active" href="index12.html">Day 12</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `pantaloni`, syllables: `pan·ta·ló·ni`, pronuncia: `пантало́ни`, meaning: `trousers`, example: `I pantaloni sono blu.`, translation: `The trousers are blue.` },
+      { word: `sedie`, syllables: `sè·die`, pronuncia: `се́дие`, meaning: `chairs`, example: `Le sedie sono in cucina.`, translation: `The chairs are in the kitchen.` },
+      { word: `borsa`, syllables: `bór·sa`, pronuncia: `бо́рса`, meaning: `bag`, example: `La borsa è sul tavolo.`, translation: `The bag is on the table.` },
+      { word: `a che ora`, syllables: `a che ó·ra`, pronuncia: `а ке о́ра`, meaning: `at what time`, example: `Voi a che ora mangiate?`, translation: `What time do you eat?` },
+      { word: `prendere`, syllables: `prèn·de·re`, pronuncia: `пре́ндере`, meaning: `to take`, example: `Prendo l'autobus ogni mattina.`, translation: `I take the bus every morning.` },
+      { word: `moglie`, syllables: `mó·glie`, pronuncia: `мо́лье`, meaning: `wife`, example: `Mia moglie lavora in ospedale.`, translation: `My wife works in a hospital.` },
+      { word: `cercare`, syllables: `cer·cà·re`, pronuncia: `черка́ре`, meaning: `to look for / to search for`, example: `Cerco le chiavi.`, translation: `I am looking for the keys.` },
+      { word: `guardare`, syllables: `guar·dà·re`, pronuncia: `гуарда́ре`, meaning: `to watch / to look at`, example: `Guardo un film la sera.`, translation: `I watch a movie in the evening.` },
+      { word: `lavare`, syllables: `la·và·re`, pronuncia: `лава́ре`, meaning: `to wash`, example: `Lavo i piatti dopo cena.`, translation: `I wash the dishes after dinner.` },
+      { word: `piatto`, syllables: `piàt·to`, pronuncia: `пья́тто`, meaning: `plate / dish`, example: `Lavo i piatti dopo cena.`, translation: `I wash the dishes after dinner.` },
+      { word: `chiedere`, syllables: `chiè·de·re`, pronuncia: `кье́дере`, meaning: `to ask`, example: `Posso chiedere una domanda?`, translation: `May I ask a question?` },
+      { word: `carne`, syllables: `càr·ne`, pronuncia: `ка́рне`, meaning: `meat`, example: `A cena mangiamo carne.`, translation: `We eat meat for dinner.` },
+      { word: `se no`, syllables: `se nò`, pronuncia: `се но́`, meaning: `otherwise / if not`, example: `Studia, se no superi l'esame.`, translation: `Study, otherwise you won't pass the exam.` },
+      { word: `ghiaccio`, syllables: `ghiàc·cio`, pronuncia: `гья́ччо`, meaning: `ice`, example: `Metto il ghiaccio nella bibita.`, translation: `I put the ice in the drink.` },
+      { word: `tornare`, syllables: `tor·nà·re`, pronuncia: `торна́ре`, meaning: `to return / to come back`, example: `Torno a casa alle sei.`, translation: `I return home at six.` },
+      { word: `pulire`, syllables: `pu·lì·re`, pronuncia: `пули́ре`, meaning: `to clean`, example: `Pulisco la cucina ogni mattina.`, translation: `I clean the kitchen every morning.` },
+      { word: `giocare`, syllables: `gio·cà·re`, pronuncia: `джока́ре`, meaning: `to play`, example: `I bambini giocano nel parco.`, translation: `The children play in the park.` },
+      { word: `scoprire`, syllables: `sco·prì·re`, pronuncia: `скопри́ре`, meaning: `to discover / to uncover`, example: `Scopro una nuova città.`, translation: `I discover a new city.` },
+      { word: `trovare`, syllables: `tro·và·re`, pronuncia: `трова́ре`, meaning: `to find`, example: `Trovo le chiavi sul tavolo.`, translation: `I find the keys on the table.` },
+      { word: `comprare`, syllables: `com·prà·re`, pronuncia: `компра́ре`, meaning: `to buy`, example: `Compro il pane ogni mattina.`, translation: `I buy bread every morning.` },
+      { word: `ghiacciolo`, syllables: `ghiac·ciò·lo`, pronuncia: `гьяччо́ло`, meaning: `popsicle / ice pop`, example: `Mangio un ghiacciolo al limone.`, translation: `I eat a lemon ice pop.` },
+      { word: `funghi`, syllables: `fùn·ghi`, pronuncia: `фу́нги`, meaning: `mushrooms`, example: `Mi piacciono i funghi sulla pizza.`, translation: `I like mushrooms on pizza.` },
+      { word: `sulla`, syllables: `sùl·la`, pronuncia: `су́лла`, meaning: `on the (feminine singular)`, example: `Il libro è sulla scrivania.`, translation: `The book is on the desk.` },
+      { word: `righe`, syllables: `rì·ghe`, pronuncia: `ри́ге`, meaning: `lines`, example: `Scrivi sulle righe.`, translation: `Write on the lines.` },
+      { word: `giaccone`, syllables: `giac·có·ne`, pronuncia: `джакко́не`, meaning: `coat / heavy jacket`, example: `In inverno porto un giaccone caldo.`, translation: `In winter I wear a warm coat.` },
+      { word: `ciabatte`, syllables: `cia·bàt·te`, pronuncia: `чаба́тте`, meaning: `slippers`, example: `A casa porto le ciabatte.`, translation: `At home I wear slippers.` },
+      { word: `giochi`, syllables: `giò·chi`, pronuncia: `джо́ки`, meaning: `games / you play`, example: `Tu giochi a calcio ogni domenica.`, translation: `You play soccer every Sunday.` },
+      { word: `olio`, syllables: `ò·lio`, pronuncia: `о́лио`, meaning: `oil`, example: `Metto l'olio sull'insalata.`, translation: `I put the oil on the salad.` },
+      { word: `maglietta`, syllables: `ma·glièt·ta`, pronuncia: `малье́тта`, meaning: `T-shirt / shirt`, example: `Indosso una maglietta bianca.`, translation: `I wear a white T-shirt.` },
+      { word: `gnocchi`, syllables: `gnòc·chi`, pronuncia: `ньо́кки`, meaning: `potato dumplings`, example: `Mangio gli gnocchi con il sugo.`, translation: `I eat gnocchi with sauce.` },
+      { word: `compagno`, syllables: `com·pà·gno`, pronuncia: `компа́ньо`, meaning: `classmate / companion / partner`, example: `Marco è il mio compagno di classe.`, translation: `Marco is my classmate.` },
+      { word: `angolo`, syllables: `àn·go·lo`, pronuncia: `а́нголо`, meaning: `corner / angle`, example: `Il tavolo è nell'angolo della stanza.`, translation: `The table is in the corner of the room.` },
+      { word: `alghe`, syllables: `àl·ghe`, pronuncia: `а́лге`, meaning: `seaweed / algae`, example: `Ci sono molte alghe nel mare.`, translation: `There are many algae in the sea.` },
+      { word: `inverno`, syllables: `in·vèr·no`, pronuncia: `инве́рно`, meaning: `winter`, example: `In inverno porto un giaccone caldo.`, translation: `In winter, I wear a warm jacket.` },
+      { word: `primavera`, syllables: `pri·ma·vè·ra`, pronuncia: `примаве́ра`, meaning: `spring`, example: `In primavera ci sono molti fiori.`, translation: `In spring, there are many flowers.` },
+      { word: `estate`, syllables: `e·stà·te`, pronuncia: `эста́те`, meaning: `summer`, example: `In estate vado al mare.`, translation: `In summer, I go to the sea.` },
+      { word: `autunno`, syllables: `au·tùn·no`, pronuncia: `ауту́нно`, meaning: `autumn / fall`, example: `In autunno cadono molte foglie.`, translation: `In autumn, many leaves fall.` },
+      { word: `bianco`, syllables: `biàn·co`, pronuncia: `бья́нко`, meaning: `white`, example: `Il muro è bianco.`, translation: `The wall is white.` },
+      { word: `verde`, syllables: `vèr·de`, pronuncia: `ве́рде`, meaning: `green`, example: `La mela è verde.`, translation: `The apple is green.` },
+      { word: `marrone`, syllables: `mar·ró·ne`, pronuncia: `марро́не`, meaning: `brown`, example: `Il tavolo è marrone.`, translation: `The table is brown.` },
+      { word: `rosso`, syllables: `ròs·so`, pronuncia: `ро́ссо`, meaning: `red`, example: `La macchina è rossa.`, translation: `The car is red.` },
+      { word: `arancione`, syllables: `a·ran·ció·ne`, pronuncia: `аранчо́не`, meaning: `orange (color)`, example: `La maglietta è arancione.`, translation: `The T-shirt is orange.` },
+      { word: `azzurro`, syllables: `az·zùr·ro`, pronuncia: `аццу́рро`, meaning: `light blue / sky blue`, example: `Il cielo è azzurro.`, translation: `The sky is light blue.` },
+      { word: `grigio`, syllables: `grì·gio`, pronuncia: `гри́джо`, meaning: `gray / grey`, example: `Il gatto è grigio.`, translation: `The cat is gray.` },
+      { word: `blu`, syllables: `blu`, pronuncia: `блю`, meaning: `blue`, example: `Il mare è blu.`, translation: `The sea is blue.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

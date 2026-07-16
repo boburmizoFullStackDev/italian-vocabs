@@ -1,0 +1,96 @@
+#separator:tab
+#html:false
+pantaloni pan-ta-ló-ni	trousers   Per essempio: I pantaloni sono blu. (The trousers are blue.)  pronuncia: пантало́ни
+sedie sè-die	chairs   Per essempio: Le sedie sono in cucina. (The chairs are in the kitchen.)  pronuncia: се́дие
+borsa bór-sa	bag   Per essempio: La borsa e' sul tavolo. (The bag is on the table.)  pronuncia: бо́рса
+a che ora a che ó-ra	at what time   Per essempio: Voi a che ora mangiate? (What time do you eat?)  pronuncia: а ке о́ра
+prendere prèn-de-re	to take   Per essempio: Prendo l'autobus ogni mattina. (I take the autobus every morning.)  pronuncia: пре́ндере
+moglie mó-glie	wife   Per essempio: Mia moglia lavora in ospedale. (My wife works in a hospital.)  pronuncia: мо́лье
+cercare cer-cà-re	to look for / to search for   Per essempio: Cerco le chiavi. (I am looking for the keys.)  pronuncia: черка́ре
+guardare guar-dà-re	to watch / to look at   Per essempio: Guardo un film la sera. (I watch a movie in the evening.)  pronuncia: гуарда́ре
+lavare la-và-re	to wash   Per essempio: Lavo i piatti dopo cena. (I wash the dishes after dinner.)  pronuncia: лава́ре
+piatto piàt-to	plate / dish   Per essempio: Lavo i piatti dopo cena. (I wash the dishes after dinner.)  pronuncia: пья́тто
+chiedere chiè-de-re	to ask   Per essempio: Posso chiadere una domanda? (May I ask a question?)  pronuncia: кье́дере
+carne càr-ne	meat   Per essempio: A cena mangiamo carne. (We eat meat for dinner.)  pronuncia: ка́рне
+se no se nò	otherwise / if not   Per essempio: Studia, se no superi l'esame. (Study, otherwise you won't pass the exam.)  pronuncia: се но́
+ghiaccio ghiàc-cio	ice   Per essempio: Metto il ghiacco nella bibita. (I put the ice in the drink.)  pronuncia: гья́ччо
+tornare tor-nà-re	to return / to come back   Per essempio: Torno a casa alle sei. (I return home at six.)  pronuncia:торна́ре
+pulire pu-lì-re	to clean   Per essempio: Pulisco la cucina ogni mattina. (I clean the kitchen every morning.)  pronuncia: пули́ре
+giocare gio-cà-re	to play   Per essempio: I bambini giocano nel parco. (The children play in the park.)  pronuncia: джока́ре
+scoprire sco-prì-re	to discover / to uncover    Per essempio: Scorpo una nuova citta. (I discover a new city.)  pronuncia: скопри́ре
+trovare tro-và-re	to find   Per essempio: Trovo le chiavi sul tavolo. (I find the keys on the table.)  pronuncia: трова́ре
+comprare com-prà-re	to buy   Per essempio:   Compro il pane ogni mattina. (I buy bread every morning.)  pronuncia: компра́ре
+ghiacciolo ghiac-ciò-lo	popsicle / ice pop  Per essempio: Mangio un ghiacciolo al limone. (I eat a lemon ice pop.)  pronuncia: гьяччо́ло
+funghi fùn-ghi	mushrooms  Per  essempo: Mi piacciono i funghi sulla pizza. (I like mushrooms on pizza.)  pronuncia: фу́нги
+sulla sùl-la	on the (feminine singular)  Per essempio: Il libro e' sulla scrivania. (The book is on the desk.)  pronuncia: су́лла
+righe rì-ghe	lines  Per essempio: Scrivi sulle righe. (Write on the lines.)  pronuncia: ри́ге
+giaccone giac-có-ne	coat / heavy jacket   Per essempio: In inverno porto un giaccone caldo. (In winter I wear a warm coat.)  pronuncia: джакко́не
+ciabatte cia-bàt-te	slippers   per essempio: A casa porto le ciabatte. (At home I wear slippers.)  pronuncia: чаба́тте
+giochi giò-chi	games / you play   per essempio: Tu giochi a caldo ogni domenica. (You play  soccer every Sunday.)  pronuncia: джо́ки
+olio ò-lio	oil   Per essempio: Metto i'olio sull'insalata. (I put the oil on the salad.)  pronuncia: о́лио
+maglietta ma-glièt-ta	T-shirt / shirt   Per essempio: Indosso una maglietta bianca. (I wear a white T-shirt.)  pronuncia: малье́тта
+gnocchi gnòc-chi	potato dumplings   Per essempio: Mangio gli gnocchi con il sugo. (I eat gnocci with sauce.)  pronuncia: ньо́кки
+compagno com-pà-gno	classmate / companion /partner   Per essempio: Marco  e' il mio compagno di classe. (Marco is my classmate.)  pronuncia: компа́ньо
+angolo àn-go-lo	corner / angle    Per essempio: Il tavolo e' nell'angolo della stanza. (The table is in the corner of the room).   pronuncia: а́нголо
+alghe àl-ghe	seaweed / algae  Per essempio: Ci sono molte alghe nel mare. (There are many algae in the sea.)  pronuncia: а́лге
+inverno in-vèr-no	winter   Per essempio: In inverno porto un giaccone caldo. (In winter, I wear a warm jacket.)  pronuncia: инве́рно
+primavera pri-ma-vè-ra	spring   Per essempio: In primavera ci sono molti fiori. (In spring, there are many flowers.)  pronuncia: примаве́ра
+estate e-stà-te	summer   Per essempio: In estate vado al mare. (In summer, I go to the sea.)  pronuncia: эста́те
+autunno au-tùn-no	autumn / fall  Per essempio: In autunno cadono molte foglie. (In autumn, many leaves fall.)  pronuncia: ау-ту́нно
+bianco biàn-co	white   Per essempio: Il muro e bianco. (The wall is white.)  pronuncia: бья́нко
+verde vèr-de	green   Per essempio: La mera e' verde. (The apple is green.)  pronuncia: ве́рде
+marrone mar-ró-ne	brown   Per essempio: Il tavolo e' marrone. (The table is brown.)  pronuncia: марро́не
+rosso ròs-so	red  Per essempio: La macchina e' rossa. (The machine is red.)  pronuncia: ро́ссо
+arancione a-ran-ció-ne	orange   Per essempio: La maglietta e' arancione. (The T-shirt is orange.)  pronuncia: аранчо́не
+azzurro az-zùr-ro	light blue /sky blue   Per essempio: Il cielo e' azzuro. (The sky is light blue.)  pronuncia: адззу́рро
+grigio grì-gio	gray / grey   Per essempio: Il gatto e' grigio. (The cat is gray.)  pronuncia: гри́джо
+blu blu	blue   Per essempio: Il mare e' blu. (The sea is blue.)  pronuncia: блю
+rosa rò-sa	pink   Per essempio: La penna e' rosa. (The pen is pink.)  pronuncia: ро́за
+viola viò-la	purple   Per essempio: Il fiore e' viola. (The flower is purple.)  pronuncia: вьо́ла
+vicino vi-cì-no	near / close   Per essempio: La scuola e' vicino a casa. (The school is near the house.)  pronuncia: вичи́но
+vedova vè-do-va	widow   Per essempio: La donna e' una vedova. (The woman is a widow.)  pronuncia: ве́дова
+marito ma-rì-to	husband   Per essempio: Il marito cucina la cena. (The husband cooks dinner.)  pronuncia: мари́то
+piccola pìc-co-la	small / little   Per essempio: La casa e' piccola. (The house is small.)  pronuncia: пи́ккола
+vado — ва́до	I go / I am going  verbo: andare = to go   Per essempio: Vado a casa. (I am going home.)  pronuncia: ва́до
+cerco - cèr·co	I look for / I search   Per essempio: Cerco il mio libro. (I look for my book.)  pronuncia: че́рко
+dice - dì·ce	says / tells   Per essempio: Lui dice la verita. (He tells the truth.)  pronuncia: ди́че
+maestro - ma·è·stro	teacher / master   Per essempio: Il nostro maestro parla italiano. (Our teacher speaks Italian.)  pronuncia: маэ́стро
+portare - por·tà·re	to bring / to carry / to take   Per essempio: Porto il libro a scuola. (I bring the book to school.) pronuncia: порта́ре
+cantare - can·tà·re	to sing   Per essempio: Mi piace cantare. (I like to sing.) pronuncia: канта́ре
+mentre - mén·tre	while / whereas   Per essempio: Ascolto la musica mentre studio. (I listen to music while I study.)  pronuncia: ме́нтре
+lavare - la·và·re	to wash   Per essempio: Lavo i piatti dopo cena. (I wash dishes after dinner.)  pronuncia: лава́ре
+guardare - guar·dà·re	to watch / to look at   Per essempio: Guardo un film. (I watch a movie.)  pronuncia: гуарда́ре
+partita - par·tì·ta	match / game   Per essempio: Guardo una partita di calcio. (I watch a football match.)  pronuncia: парти́та
+giocare - gio·cà·re	to play   Per essempio: I bambini giocano nel parco. (The children play in the park.)  pronuncia: джока́ре
+venire - ve·nì·re	to come   per essempio: Vengo da Bukhara. (I come from Bukhara.)  pronuncia: вени́ре
+carte - càr·te	cards   Per essempio: Giochiamo sempre a carte. (we always play cards.)  pronuncia: ка́рте
+genealogico - ge·ne·a·lò·gi·co	genealogical  Per essempio: Questo è un albero genealogico. (This is a family tree.) pronuncia: дженеалո́джико
+marito - ma·rì·to	husband   Per essempio: Mio marito lavora in banca. (My husband works in a bank.)  pronuncia: мари́то
+morto - mòr·to	dead / died (past participle of morire)  Per essempio: Suo nonno è morto un anno fa. (His grandfather died a year ago.)  pronuncia: мо́рто
+fa - fà	ago   Per essempio: Sono arrivato due giorni fa. (I arrived two days ago.)  pronuncia: фа
+nipoti - ni·pò·ti	grandchildren, nephews and nieces   Per essempio: Ha tre nipoti. (He/She has three grandchildren.)  pronuncia: нипо́ти
+cugino - cu·gì·no	cousin (male) (ammakivacha)  per essempio: Mio cugino vive a Roma. (My cousin lives in Rome.)  pronuncia: куджи́но
+cognata - co·gnà·ta	sister-in-law (kelin, qayin opa, qayin singil, yanga)  Per essempio: Mia cognata vive a Milano. (My sister-in-law lives in Milan.)  pronuncia: конья́та
+suocero - suo·cè·ro	father-in-law (qaynota) &  mother-in-law (qaynona)  Per esempio: Mio suocero vive a Firenze. (My father-in-law lives in Florence.)  pronuncia: суоче́ро
+traduci - tra·dù·ci	translate   Per essempio: Traduci questa frase in italiano. (Translate this sentence into Italian.)  pronuncia: траду́чи
+parenti - pa·rèn·ti	relatives / family members   Per essempio: I miei parenti vivono in Uzbekistan. (My relatives live in Uzbekistan.)  pronuncia: паре́нти
+mai - mài	never / ever   Per essempio: Non mangio mai carne. (I never eat meat.)  pronuncia: ма́й
+poche volte - pò·che vòl·te	a few times / not often   Per essempio: Vado al cinema poche volte. (I go to the cinema only a few times.)  pronuncia: по́ке во́льте
+raramente - ra·ra·mén·te	rarely   Per essempio: Mangio raramente il pesce. (I rarely eat fish.)  pronuncia: рараме́нте
+a volte - a vòl·te	sometimes   Per essempio: A volte vado a piedi. (Sometimes I go on foot.)  pronuncia: а во́льте
+qualche volta - quàl·che vòl·ta	once in a while   Per essempio: Qualche volta mangio la pizza. (Sometimes I eat pizza.)  pronuncia: куа́льке во́льта
+molte volte - mòl·te vòl·te	many times / often   Per essempio: Vado molte volte al parco. (I go to the park many times.)  pronuncia: мо́льте во́льте
+calcio - càl·cio	footbal / soccer   Per essempio: Gioco a calcio con i miei amici. (I play football with my friends.) pronuncia: ка́льчо
+maiale - ma·ià·le	pig / pork   Per essempio: Il maiale è un animale. (The pig is an animal.)  pronuncia: майа́ле
+cittadinanza - cit·ta·di·nàn·za	citizenship   per essempio: Ho la cittadinanza italiana. (I have Italian citizenship.)  pronuncia: читтадина́нца
+stato civile - stà·to ci·vì·le	marital status   Per essempio: Qual è il tuo stato civile? (What is your marital status?)  pronuncia: ста́то чиви́ле
+connotati - con·no·tà·ti	physical features / identifying features   Per essempio: Quali sono i tuoi connotati? (What are your physical features?)  pronuncia: коннота́ти
+contrassegni salienti - con·tras·sé·gni sa·lièn·ti	identifying marks   Per essempio: Hai contrassegni salienti? (Do you have any distinguishing marks?)  pronuncia: контрассе́ньи салье́нти
+statura - sta·tù·ra	height   Per essempio: Ha una statura media. (He/She is of average height.)  pronuncia: стату́ра
+capelli - ca·pèl·li	hair   Per essempio: Ha i capelli neri. (He/She has black hair.)  pronuncia: капе́лли
+segni particolari - sè·gni par·ti·co·là·ri	special marks  Per essempio: Non ha segni particolari. (He/She has no distinguishing features.)  pronuncia: се́ньи партикола́ри
+firma del titolare	signature of the owner  per essempio: Firma del titolare del documento. (Signature of the holder of the document.)
+sindaco - sìn·da·co	mayor   Per essempio: Il sindaco della città parla con i cittadini. (The mayor of the city speaks with the citizens.)  pronuncia: си́ндако
+nubile - nù·bi·le	single (unmarried woman )  per essempio: Lei è nubile. (She is single / unmarried.)  pronuncia: ну́биле
+celibe - cè·li·be	single (unmarried man)  per essempio: Lui è celibe. (He is single / unmarried.)  pronuncia: че́либе
+stesso - stès·so	same   Per essempio: Abbiamo lo stesso compleanno. (We have the same birthday.)  pronuncia: сте́ссо
