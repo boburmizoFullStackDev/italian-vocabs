@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italiano Vocabulary — Day 13</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .nav-buttons {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1d1d1f;
+      background: #e5e7eb;
+      border: 1px solid transparent;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+    .nav-buttons a:hover {
+      background: #d1d5db;
+      transform: translateY(-1px);
+    }
+    .nav-buttons a.active {
+      background: #7c3aed;
+      color: white;
+      border-color: #6d28d9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      line-height: 1.6;
+    }
+    .header {
+      font-weight: 600;
+      color: #5b21b6;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .example {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="nav-buttons">
+    <a href="index.html">Day 1</a>
+    <a href="index2.html">Day 2</a>
+    <a href="index3.html">Day 3</a>
+    <a href="index4.html">Day 4</a>
+    <a href="index5.html">Day 5</a>
+    <a href="index6.html">Day 6</a>
+    <a href="index7.html">Day 7</a>
+    <a href="index8.html">Day 8</a>
+    <a href="index9.html">Day 9</a>
+    <a href="index10.html">Day 10</a>
+    <a href="index11.html">Day 11</a>
+    <a href="index12.html">Day 12</a>
+    <a class="active" href="index13.html">Day 13</a>
+  </aside>
+  <main id="list"></main>
+
+  <script>
+    const vocabularyData = [
+      { word: `rosa`, syllables: `rò·sa`, pronuncia: `ро́за`, meaning: `pink`, example: `La penna è rosa.`, translation: `The pen is pink.` },
+      { word: `viola`, syllables: `viò·la`, pronuncia: `вьо́ла`, meaning: `purple`, example: `Il fiore è viola.`, translation: `The flower is purple.` },
+      { word: `vicino`, syllables: `vi·cì·no`, pronuncia: `вичи́но`, meaning: `near / close`, example: `La scuola è vicino a casa.`, translation: `The school is near the house.` },
+      { word: `vedova`, syllables: `vè·do·va`, pronuncia: `ве́дова`, meaning: `widow`, example: `La donna è una vedova.`, translation: `The woman is a widow.` },
+      { word: `marito`, syllables: `ma·rì·to`, pronuncia: `мари́то`, meaning: `husband`, example: `Il marito cucina la cena.`, translation: `The husband cooks dinner.` },
+      { word: `piccola`, syllables: `pìc·co·la`, pronuncia: `пи́ккола`, meaning: `small / little`, example: `La casa è piccola.`, translation: `The house is small.` },
+      { word: `vado`, syllables: `và·do`, pronuncia: `ва́до`, meaning: `I go / I am going`, example: `Vado a casa.`, translation: `I am going home.` },
+      { word: `cerco`, syllables: `cèr·co`, pronuncia: `че́рко`, meaning: `I look for / I search`, example: `Cerco il mio libro.`, translation: `I look for my book.` },
+      { word: `dice`, syllables: `dì·ce`, pronuncia: `ди́че`, meaning: `says / tells`, example: `Lui dice la verità.`, translation: `He tells the truth.` },
+      { word: `maestro`, syllables: `ma·è·stro`, pronuncia: `маэ́стро`, meaning: `teacher / master`, example: `Il nostro maestro parla italiano.`, translation: `Our teacher speaks Italian.` },
+      { word: `portare`, syllables: `por·tà·re`, pronuncia: `порта́ре`, meaning: `to bring / to carry / to take`, example: `Porto il libro a scuola.`, translation: `I bring the book to school.` },
+      { word: `cantare`, syllables: `can·tà·re`, pronuncia: `канта́ре`, meaning: `to sing`, example: `Mi piace cantare.`, translation: `I like to sing.` },
+      { word: `mentre`, syllables: `mén·tre`, pronuncia: `ме́нтре`, meaning: `while / whereas`, example: `Ascolto la musica mentre studio.`, translation: `I listen to music while I study.` },
+      { word: `partita`, syllables: `par·tì·ta`, pronuncia: `парти́та`, meaning: `match / game`, example: `Guardo una partita di calcio.`, translation: `I watch a football match.` },
+      { word: `venire`, syllables: `ve·nì·re`, pronuncia: `вени́ре`, meaning: `to come`, example: `Vengo da Bukhara.`, translation: `I come from Bukhara.` },
+      { word: `carte`, syllables: `càr·te`, pronuncia: `ка́рте`, meaning: `cards`, example: `Giochiamo sempre a carte.`, translation: `We always play cards.` },
+      { word: `genealogico`, syllables: `ge·ne·a·lò·gi·co`, pronuncia: `дженеало́джико`, meaning: `genealogical`, example: `Questo è un albero genealogico.`, translation: `This is a family tree.` },
+      { word: `morto`, syllables: `mòr·to`, pronuncia: `мо́рто`, meaning: `dead / died`, example: `Suo nonno è morto un anno fa.`, translation: `His grandfather died a year ago.` },
+      { word: `fa`, syllables: `fà`, pronuncia: `фа`, meaning: `ago`, example: `Sono arrivato due giorni fa.`, translation: `I arrived two days ago.` },
+      { word: `nipoti`, syllables: `ni·pò·ti`, pronuncia: `нипо́ти`, meaning: `grandchildren / nephews and nieces`, example: `Ha tre nipoti.`, translation: `He/She has three grandchildren.` },
+      { word: `cugino`, syllables: `cu·gì·no`, pronuncia: `куджи́но`, meaning: `cousin (male)`, example: `Mio cugino vive a Roma.`, translation: `My cousin lives in Rome.` },
+      { word: `cognata`, syllables: `co·gnà·ta`, pronuncia: `конья́та`, meaning: `sister-in-law`, example: `Mia cognata vive a Milano.`, translation: `My sister-in-law lives in Milan.` },
+      { word: `suocero`, syllables: `suo·cè·ro`, pronuncia: `суоче́ро`, meaning: `father-in-law`, example: `Mio suocero vive a Firenze.`, translation: `My father-in-law lives in Florence.` },
+      { word: `traduci`, syllables: `tra·dù·ci`, pronuncia: `траду́чи`, meaning: `translate`, example: `Traduci questa frase in italiano.`, translation: `Translate this sentence into Italian.` },
+      { word: `parenti`, syllables: `pa·rèn·ti`, pronuncia: `паре́нти`, meaning: `relatives / family members`, example: `I miei parenti vivono in Uzbekistan.`, translation: `My relatives live in Uzbekistan.` },
+      { word: `mai`, syllables: `mài`, pronuncia: `ма́й`, meaning: `never / ever`, example: `Non mangio mai carne.`, translation: `I never eat meat.` },
+      { word: `poche volte`, syllables: `pò·che vòl·te`, pronuncia: `по́ке во́льте`, meaning: `a few times / not often`, example: `Vado al cinema poche volte.`, translation: `I go to the cinema only a few times.` },
+      { word: `raramente`, syllables: `ra·ra·mén·te`, pronuncia: `рараме́нте`, meaning: `rarely`, example: `Mangio raramente il pesce.`, translation: `I rarely eat fish.` },
+      { word: `a volte`, syllables: `a vòl·te`, pronuncia: `а во́льте`, meaning: `sometimes`, example: `A volte vado a piedi.`, translation: `Sometimes I go on foot.` },
+      { word: `qualche volta`, syllables: `quàl·che vòl·ta`, pronuncia: `куа́льке во́льта`, meaning: `once in a while`, example: `Qualche volta mangio la pizza.`, translation: `Sometimes I eat pizza.` },
+      { word: `molte volte`, syllables: `mòl·te vòl·te`, pronuncia: `мо́льте во́льте`, meaning: `many times / often`, example: `Vado molte volte al parco.`, translation: `I go to the park many times.` },
+      { word: `calcio`, syllables: `càl·cio`, pronuncia: `ка́льчо`, meaning: `football / soccer`, example: `Gioco a calcio con i miei amici.`, translation: `I play football with my friends.` },
+      { word: `maiale`, syllables: `ma·ià·le`, pronuncia: `майа́ле`, meaning: `pig / pork`, example: `Il maiale è un animale.`, translation: `The pig is an animal.` },
+      { word: `cittadinanza`, syllables: `cit·ta·di·nàn·za`, pronuncia: `читтадина́нца`, meaning: `citizenship`, example: `Ho la cittadinanza italiana.`, translation: `I have Italian citizenship.` },
+      { word: `stato civile`, syllables: `stà·to ci·vì·le`, pronuncia: `ста́то чиви́ле`, meaning: `marital status`, example: `Qual è il tuo stato civile?`, translation: `What is your marital status?` },
+      { word: `connotati`, syllables: `con·no·tà·ti`, pronuncia: `коннота́ти`, meaning: `physical features / identifying features`, example: `Quali sono i tuoi connotati?`, translation: `What are your physical features?` },
+      { word: `contrassegni salienti`, syllables: `con·tras·sé·gni sa·lièn·ti`, pronuncia: `контрассе́ньи салье́нти`, meaning: `identifying marks`, example: `Hai contrassegni salienti?`, translation: `Do you have any distinguishing marks?` },
+      { word: `statura`, syllables: `sta·tù·ra`, pronuncia: `стату́ра`, meaning: `height`, example: `Ha una statura media.`, translation: `He/She is of average height.` },
+      { word: `capelli`, syllables: `ca·pèl·li`, pronuncia: `капе́лли`, meaning: `hair`, example: `Ha i capelli neri.`, translation: `He/She has black hair.` },
+      { word: `segni particolari`, syllables: `sè·gni par·ti·co·là·ri`, pronuncia: `се́ньи партикола́ри`, meaning: `special / distinguishing marks`, example: `Non ha segni particolari.`, translation: `He/She has no distinguishing features.` },
+      { word: `firma del titolare`, syllables: `fìr·ma del ti·to·là·re`, meaning: `signature of the owner`, example: `Firma del titolare del documento.`, translation: `Signature of the holder of the document.` },
+      { word: `sindaco`, syllables: `sìn·da·co`, pronuncia: `си́ндако`, meaning: `mayor`, example: `Il sindaco parla con i cittadini.`, translation: `The mayor speaks with the citizens.` },
+      { word: `nubile`, syllables: `nù·bi·le`, pronuncia: `ну́биле`, meaning: `single (unmarried woman)`, example: `Lei è nubile.`, translation: `She is single / unmarried.` },
+      { word: `celibe`, syllables: `cè·li·be`, pronuncia: `че́либе`, meaning: `single (unmarried man)`, example: `Lui è celibe.`, translation: `He is single / unmarried.` },
+      { word: `stesso`, syllables: `stès·so`, pronuncia: `сте́ссо`, meaning: `same`, example: `Abbiamo lo stesso compleanno.`, translation: `We have the same birthday.` },
+    ];
+
+    const container = document.getElementById('list');
+
+    vocabularyData.forEach((item, index) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const header = document.createElement('div');
+      header.className = 'header';
+      header.textContent = `${index + 1}. ${item.word} = ${item.syllables}${item.pronuncia ? ' — ' + item.pronuncia : ''} — ${item.meaning}`;
+
+      const example = document.createElement('div');
+      example.className = 'example';
+      example.textContent = `Per esempio: ${item.example} (${item.translation})`;
+
+      card.appendChild(header);
+      card.appendChild(example);
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>
